@@ -10,7 +10,7 @@ export default function Collections() {
             key={index}
             title={collection.title}
             description={collection.description}
-            collection={collection.collection}
+            col={collection.col}
             id={collection.id}
             imageData={collection.imageData}
           />

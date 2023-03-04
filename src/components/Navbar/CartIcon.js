@@ -12,7 +12,7 @@ export default function Cart() {
   // }
   // const [token, setToken] = useState(0)
   return (
-    <div className='h-10 w-10'>
+    <div className='h-9 w-9'>
       <a className='relative' href='/cart'>
         <Image src={cart} alt='cart' />
         <div className='h-2 w-2 p-3 rounded-full bg-black text-white flex items-center justify-center absolute -top-2 -right-1'>

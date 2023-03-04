@@ -7,6 +7,7 @@ import Collections from '@/layout/Collections'
 import Charity from '@/layout/Charity'
 import Faq from '@/layout/FAQ/Faq'
 import Contact from '@/layout/Contact'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <Charity />
       <Faq />
       <Contact />
+      <Footer />
     </main>
   )
 }
