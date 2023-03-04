@@ -18,6 +18,8 @@
 
 body {
   background-color: white;
+
+  @apply scrollbar-thin scrollbar-thumb-[#222222] scrollbar-track-transparent scrollbar-thumb-rounded-full
 }
 
 h1 {

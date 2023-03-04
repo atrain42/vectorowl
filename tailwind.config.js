@@ -10,8 +10,9 @@ module.exports = {
       boxShadow: {
         card: '0px 0px 4px 2px rgba(0, 0, 0, 0.1)',
         test: '10px 10px 0px -2px #417674',
-        black: '10px 10px 0px -2px rgba(0,0,0,1)',
+        black: '10px 10px 0px -2px #222222',
         shrink: '10px 10px 0px -12px rgba(0,0,0,1);',
+        theme: '10px 10px 0px -2px #078080',
       },
 
       scale: {
@@ -53,8 +54,8 @@ module.exports = {
           '-apple-system',
           'sans-serif',
         ],
-        lato: [
-          'Roboto',
+        poppins: [
+          'Poppins',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
@@ -89,5 +90,9 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar')],
+
+  variants: {
+    scrollbar: ['rounded'],
+  },
 }
