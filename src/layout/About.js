@@ -13,16 +13,16 @@ const data = [
     subtitle: 'No monthly subscription or hidden fees',
     item1: 'No need to sign up or pay subscription fees.',
     item2:
-      'Simply add images to your cart, and purchase images on an as-needed basis.',
+      'Add illustrations to your cart, and purchase them on an as-needed basis.',
   },
   {
     img: spinning,
-    title: 'Optimized images',
-    subtitle: 'Our images are made for the web',
+    title: 'Free illustrations',
+    subtitle: 'Use our free images where you please',
     item1:
-      'All vector illustrations can easily be scaled up, or down, depending on your project needs.',
+      'To download free images, preview the image and click the download button.',
     item2:
-      'We test our images against multiple background colors to ensure a clean look in all use cases.',
+      'To use free images, we require you to use an attribution that links back to our site.',
   },
   {
     img: hanging,

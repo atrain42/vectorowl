@@ -26,7 +26,7 @@ const Header = () => {
             className='w-full rounded text-center font-poppins font-normal py-4 border bg-offwhite border-black hover:scale-102 active:scale-95 transition-all ease-in duration-50'
             href='/about'
           >
-            About us
+            Pricing
           </Link>
         </div>
       </div>
