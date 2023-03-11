@@ -8,7 +8,7 @@ const Charity = () => {
     <section className='mt-80 py-28 bg-offwhite'>
       <span>
         <h2 className='text-4xl w-96 text-black text-center mx-auto mb-6'>
-          Why choose Hollowbox?
+          Why choose VectorOwl?
         </h2>
         <p className='text-center w-3/6 mx-auto text-black'>
           In addition to supplying you with high-quality vector illustrations,
@@ -23,7 +23,7 @@ const Charity = () => {
           <div className='mv:mt-16 md:mt-0 mv:w-full md:w-96'>
             <p className='text-4xl mb-4 text-black'>Charity support</p>
             <p className='font-semibold mb-4 text-black'>
-              At HollowBox, we value giving back
+              At VectorOwl, we value giving back
             </p>
             <ul className='list-disc pl-8'>
               <li className='mb-2 text-black'>

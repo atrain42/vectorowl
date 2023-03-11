@@ -15,11 +15,6 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
-      <SectionHeading
-        title='Illustration sets'
-        description='Finding unique images for your website starts here. Enter our different collections of graphic illustrations and find the image that sets your website apart.'
-        padding='pt-80'
-      />
       <Collections />
       <Charity />
       <Faq />

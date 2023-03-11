@@ -11,11 +11,11 @@ const Header = () => {
           <strong>Vector illustrations</strong> for your website
         </h1>
         <p className='mt-5 text-lg w-full'>
-          At VectorOwl, we create unique vector art that will separate your
+          At Vector Owl, we create unique vector art that will separate your
           website from the competition. Today, so many websites are using the
           same style of vector images. We are here to disrupt that trend.
         </p>
-        <div className='grid grid-cols-2 mt-8 gap-x-9 gap-y-9 font-button place-items-center text-lg tracking-wider'>
+        <div className='grid grid-cols-2 mt-8 gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
           <Link
             className='w-full rounded font-poppins font-normal text-center py-4 bg-theme text-white border border-black hover:scale-102 active:scale-95 transition-all ease-in duration-50'
             href='/illustrations'
@@ -24,7 +24,7 @@ const Header = () => {
           </Link>
           <Link
             className='w-full rounded text-center font-poppins font-normal py-4 border bg-offwhite border-black hover:scale-102 active:scale-95 transition-all ease-in duration-50'
-            href='/about'
+            href='/pricing'
           >
             Pricing
           </Link>

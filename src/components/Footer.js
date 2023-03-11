@@ -10,9 +10,9 @@ const Footer = () => {
     <footer className='mv:px-8 md:px-20 mb-12 mt-72'>
       <div className='grid place-items-start mb-24 w-full mv:grid-cols-1 sm:grid-cols-3'>
         <div className='mv:mb-12 sm:mb-0'>
-          <p className='mb-4 font-semibold'>HollowBox</p>
+          <p className='mb-4 font-semibold'>Vector Owl</p>
           <p className='text-sm'>
-            At HollowBox, we offer scalable vector illustrations for various use
+            At Vector Owl, we offer scalable vector illustrations for various use
             cases such as branding, marketing, web & app design, and more. Our
             illustrations are unique and versatile to fit your project needs.
           </p>
@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
       <div className='h-px w-full bg-gray-800'></div>
       <p className='mt-4 text-right text-sm'>
-        &#xA9; VectorOwl, {getYear()}. All Rights Reserved.
+        &#xA9; Vector Owl, {getYear()}. All Rights Reserved.
       </p>
     </footer>
   )

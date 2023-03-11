@@ -35,6 +35,14 @@ h2 {
   font-size: 2.25rem;
 }
 
+/* this is for h1 tags at the tops of pages that should be styled like an h2 */
+.page-header {
+  font-family: "Poppins", 'Roboto', sans-serif;
+  font-style: normal;
+  color: #222222;
+  font-size: 2.25rem;
+}
+
 p {
   font-family: "Poppins", 'Roboto', sans-serif;
   font-style: normal;
