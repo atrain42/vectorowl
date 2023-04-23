@@ -12,29 +12,29 @@ import owl from '../../public/images/owl-eyes.webp'
 const data = [
   {
     img: flying,
-    title: 'Pay as needed',
-    subtitle: 'No monthly subscription or hidden fees',
-    item1: 'No need to sign up or pay subscription fees.',
-    item2:
-      'Add illustrations to your cart, and purchase them on an as-needed basis.',
-  },
-  {
-    img: spinning,
-    title: 'Free illustrations',
+    title: 'Free Illustrations',
     subtitle: 'Use our free images where you please',
     item1:
       'To download free images, preview the image and click the download button.',
+    item2: 'Every image is available in both black and white as well as color.',
+  },
+  {
+    img: spinning,
+    title: 'Optimized images',
+    subtitle:
+      'Our images are optimized to look great on any platform or device',
+    item1: 'All images are available in .webp file extension.',
     item2:
-      'To use free images, we require you to use an attribution that links back to our site.',
+      'Our images are vector graphics, which ensures they retain their quality and visual appeal on any background color.',
   },
   {
     img: hanging,
-    title: 'Easy checkout',
-    subtitle: 'Our checkout process is straightforward',
+    title: 'Custom Illustrations',
+    subtitle: 'Make your website or brand memorable',
     item1:
-      'After your payment is verified, you will then be able to download a zip file containing all your purchased images.',
+      'We offer to create custom illustrations that are tailored to your brand colors.',
     item2:
-      'For free images, simply click the download button and immediately gain access to the image.',
+      'For custom illustrations, there is no need to include an attribute on the images.',
   },
 ]
 

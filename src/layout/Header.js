@@ -24,9 +24,9 @@ const Header = () => {
           </Link>
           <Link
             className='w-full rounded text-center font-poppins font-normal py-4 border bg-offwhite border-black hover:scale-102 active:scale-95 transition-all ease-in duration-50'
-            href='/pricing'
+            href='/custom-vector-illustrations'
           >
-            Pricing
+            Brand building
           </Link>
         </div>
       </div>
