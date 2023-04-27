@@ -16,7 +16,7 @@ const data = [
     subtitle: 'Use our free images where you please',
     item1:
       'To download free images, preview the image and click the download button.',
-    item2: 'Every image is available in both black and white as well as color.',
+    item2: 'When using our illustrations, you must include an image attribute.',
   },
   {
     img: spinning,
