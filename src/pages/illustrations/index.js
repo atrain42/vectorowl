@@ -10,14 +10,8 @@ export default function index() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.0 }}
-      className='pt-16'
     >
-      <SectionHeading
-        title='Illustration sets'
-        description='Finding unique images for your website starts here. Enter our different collections of graphic illustrations and find the image that sets your website apart.'
-        padding='pt-0'
-      />
-      <Collections />
+      <Collections paddingTop='p-16'/>
     </motion.div>
   )
 }

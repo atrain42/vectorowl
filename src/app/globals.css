@@ -173,3 +173,7 @@ select {
     font-size: 17px;
   }
 }
+
+.hover-menu {
+  background-color: rgba(78, 78, 78, 0.398);
+}

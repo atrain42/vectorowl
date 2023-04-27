@@ -44,7 +44,3 @@ export const collections = [
 export function getCollectionById (id) {
   return collections.find((collection) => collection.id === id);
 }
-
-export function tester (id) {
-  console.log(id)
-}

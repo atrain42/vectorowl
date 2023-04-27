@@ -3,10 +3,10 @@ import CollectionCard from '../components/CollectionCard'
 import { collections } from '../collectiondata'
 import owl from '../../public/images/owl-2.webp'
 
-export default function Collections() {
+export default function Collections({ paddingTop }) {
   return (
     <>
-      <div className='flex flex-col justify-center items-center pt-80 mv:px-8 md:px-0 mb-12'>
+      <div className={`flex flex-col justify-center items-center ${paddingTop} mv:px-8 md:px-0 mb-12`}>
         <Image className="w-12 mb-8" src={owl} alt="Vector owl concept"/>
         <h2 className='text-center'>Illustration sets</h2>
         <p className='mt-5 text-center mv:w-full md:w-400'>

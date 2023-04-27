@@ -1,21 +1,16 @@
+import React, { useState } from 'react'
 import { getCollectionById } from '@/collectiondata'
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import Link from 'next/link'
+import svg from '../../../../public/images/eye.svg'
 
 export default function Collection() {
+  const [isHovered, setIsHovered] = useState(-1) 
   const router = useRouter()
-
   const collectionID = router.query.collectionID
-
-  const collection = getCollectionById(collectionID)  
-
-  const { title, col, description } = collection
-  console.log(title, col)
-
-  // if (!collection) {
-  //   alert('Page does not exist')
-  // }
+  const collection = getCollectionById(collectionID)
+  const { title, col, description, id } = collection
 
   return (
     <>
@@ -27,21 +22,29 @@ export default function Collection() {
           Illustration sets
         </Link>
       </div>
-      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24 gap-x-16 gap-y-52 place-items-center'>
+      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24 gap-x-16 gap-y-36 place-items-center'>
         {collection.imageData.map((image, index) => {
           return (
             <Link
-              href='#'
+              href={`/illustrations/${id}/${image.url}`}
               key={index}
-              className='relative cursor-pointer h-full flex items-center hover:border hover:border-[#DCDCDC] hover:shadow-lg ease-in duration-150'
+              className='relative cursor-pointer h-full flex items-center hover:border hover:border-[#DCDCDC] hover:shadow-lg'
+              onMouseEnter={() => setIsHovered(index)}
+              onMouseLeave={() => setIsHovered(-1)}
             >
+              {isHovered === index && (
+                <div className='h-full w-full z-90 absolute top-0 left-0 hover-menu'>
+                  <Image
+                    className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12'
+                    src={svg}
+                    alt='View icon'
+                  />
+                </div>
+              )}
               <Image
                 src={image.image}
                 alt={`Vector ${image.alt} illustration`}
               />
-              <p className='whitespace-nowrap text-center text-sm px-6 py-2 bg-white text-black border rounded-sm border-black absolute -bottom-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                Preview image
-              </p>
             </Link>
           )
         })}

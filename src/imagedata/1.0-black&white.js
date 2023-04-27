@@ -25,6 +25,7 @@ export const BlackV1 = [
     collection: 'Black and White Collection',
     alt: 'early morning coffee',
     price: '$3',
+    url: 'morning-coffee',
   },
   {
     image: artClass,
@@ -32,6 +33,7 @@ export const BlackV1 = [
     collection: 'Black and White Collection',
     alt: 'painting in art class',
     price: '$3',
+    url: 'art-class',
   },
   {
     image: schoolNotes,
@@ -39,6 +41,7 @@ export const BlackV1 = [
     collection: 'Black and White Collection',
     alt: 'school notes concept',
     price: '$3',
+    url: 'school-notes',
   },
   {
     image: trippyTracks,
@@ -46,6 +49,7 @@ export const BlackV1 = [
     collection: 'Black and White Collection',
     alt: 'perspecitve train tracks concept',
     price: '$3',
+    url: 'trippy-tracks',
   },
   {
     image: formPacman,
@@ -146,3 +150,7 @@ export const BlackV1 = [
     price: '$3',
   },
 ]
+
+export function getImageByTitle(title) {
+  return BlackV1.find((image) => image.url === title)
+}

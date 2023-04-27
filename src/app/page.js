@@ -15,7 +15,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <About />
-      <Collections />
+      <Collections paddingTop='pt-80' />
       <Charity />
       <Faq />
       <Contact />
