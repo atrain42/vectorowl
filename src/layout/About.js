@@ -55,7 +55,7 @@ export default function About() {
 
       <Flex {...data[0]} />
       <FlexReverse {...data[1]} />
-      <Flex {...data[2]} />
+      <Flex {...data[2]} link={true} />
     </div>
   )
 }

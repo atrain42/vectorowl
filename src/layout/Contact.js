@@ -1,14 +1,18 @@
 import Link from "next/link"
 
-export default function Contact() {
+export default function Contact({ padding }) {
   return (
-    <section className='flex flex-col items-center justify-center'>
-      <div
-        className='flex flex-col justify-center items-center pt-80 mv:px-8 md:px-0 mb-12'
-      >
-        <p className="text-xs bg-offwhite p-4 rounded-full border border-textblack">Great customer service</p>
+    <section className={`flex flex-col items-center justify-center ${padding}`}>
+      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12'>
+        <p className='text-xs bg-offwhite p-4 rounded-full border border-textblack'>
+          Let&#39;s work together
+        </p>
         <h2 className='text-center mt-8'>Get in touch</h2>
-        <p className='mt-5 text-center mv:w-full md:w-400'>If you experience any issues with your vector illustrations or think we can work to improve the overall experience of the site, please reach out to us.</p>
+        <p className='mt-5 text-center mv:w-full md:w-400'>
+          If you experience any issues with your vector illustrations or think
+          we can work to improve the overall experience of the site, please
+          reach out to us.
+        </p>
       </div>
       <span className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 active:scale-95 transition-all ease-in duration-50'>
         <Link
@@ -17,7 +21,6 @@ export default function Contact() {
         >
           Contact
         </Link>
-
       </span>
     </section>
   )

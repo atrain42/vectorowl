@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import image from '../../public/images/building-theme.webp'
+import arrow from '../../public/images/arrowai.webp'
 
 
 const Charity = () => {
@@ -17,7 +18,15 @@ const Charity = () => {
       <div className='flex items-center mt-32 mv:flex-col-reverse md:flex-row'>
         <div className='flex-1 relative flex flex-col items-center justify-center mv:w-screen md:w-7/12'>
           <Image className='h-auto w-4/6' src={image} alt='platform' />
-          <p className='mt-4 text-xs'>Image from <a className='underline' href="#">vectorowl.com</a></p>
+          <span className='relative'>
+            <p className='mt-4 text-xs'>
+              Image from{' '}
+              <a className='underline' href='#'>
+                vectorowl.com
+              </a>
+              <Image className='absolute top-8 right-0 h-24 w-auto' src={arrow} alt='arrow' />
+            </p>
+          </span>
         </div>
         <div className='px-12 flex-1 flex flex-col items-center justify-center w-screen'>
           <div className='mv:mt-16 md:mt-0 mv:w-full md:w-96'>

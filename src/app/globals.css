@@ -14,6 +14,30 @@
   --dark-terminal-color: #0a2540;
   --accent-color: #222222;
   --radius: 3px;
+
+  /* accordion */
+    --gh-pattern-1: #fff4f9;
+  --gh-pattern-2: #ffebf1;
+  --gh-pattern-3: #ffe3d7;
+  --gh-pattern-4: #ffe2b1;
+  --gh-pattern-5: #ffea8b;
+
+  --gh-blue-0: #e3f1f7;
+  --gh-blue-1: #e6ebff;
+  --gh-blue-2: #a2ddf6;
+  --gh-blue-3: #7dcff2;
+  --gh-blue-4: #58c1ee;
+  --gh-blue-5: #33b4eb;
+  --gh-blue-6: #16a3df;
+  --gh-blue-7: #1287ba;
+  --gh-blue-8: #0f6c95;
+  --gh-blue-9: #0a41fa;
+  --gh-blue-10: #101068;
+
+  --transition: all 0.3s linear;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
 }
 
 body {
@@ -176,4 +200,81 @@ select {
 
 .hover-menu {
   background-color: rgba(78, 78, 78, 0.398);
+}
+
+.btn-5 {  
+  box-shadow: 8px 8px 0px -2px #222222;
+  transition: all 75ms linear;
+}
+
+.btn-5:hover, .btn-5:focus {
+  box-shadow: 0px 0px 0px 0px #222222;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.header-btn {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Accordion */
+.expendable-button {
+  border: none;
+  cursor: pointer;
+  padding: 0 10px;
+  width: 2px;
+  margin-right: 10px;
+}
+
+.main-title {
+  margin: 20px 0 10px 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.main-title-underline {
+  text-align: left;
+  height: 0.15rem;
+  margin-bottom: 40px;
+}
+
+.accordion-container {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.acc-underline {
+  width: 100%;
+  height: 1px;
+  background: rgb(197, 197, 197);
+  margin: 20px auto;
+}
+
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.column-container:hover {
+  width: 100%;
+}
+
+.text-container {
+  text-align: left;
+  max-height: 350px;
+  opacity: 1;
+  animation-name: textanimate;
+  animation-duration: 1s;
+}
+
+@keyframes textanimate {
+  0% {
+    opacity: 0;
+    max-height: 15px;
+  }
+  100% {
+    opacity: 1;
+    max-height: 350px;
+  }
 }

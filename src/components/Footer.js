@@ -1,4 +1,4 @@
-const Footer = () => {
+const Footer = ({ padding }) => {
   const getYear = () => {
     const date = new Date();
     let year = date.getFullYear();
@@ -7,7 +7,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className='mv:px-8 md:px-20 mb-12 mt-72'>
+    <footer className={`mv:px-8 md:px-20 mb-12 ${padding}`}>
       <div className='grid place-items-start mb-24 w-full mv:grid-cols-1 sm:grid-cols-3'>
         <div className='mv:mb-12 sm:mb-0'>
           <p className='mb-4 font-semibold'>Vector Owl</p>

@@ -8,6 +8,7 @@ import Charity from '@/layout/Charity'
 import Faq from '@/layout/FAQ/Faq'
 import Contact from '@/layout/Contact'
 import Footer from '@/components/Footer'
+import Main from '@/components/Accordion/Main'
 
 export default function Home() {
   return (
@@ -18,8 +19,8 @@ export default function Home() {
       <Collections paddingTop='pt-80' />
       <Charity />
       <Faq />
-      <Contact />
-      <Footer />
+      <Contact padding='pt-80' />
+      <Footer padding='pt-80' />
     </main>
   )
 }
