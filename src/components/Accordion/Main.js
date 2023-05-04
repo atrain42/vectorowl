@@ -2,6 +2,8 @@
 import React, {useState, useCallback, useEffect} from 'react'
 import Image from 'next/image'
 import add from '../../../public/images/add.svg'
+import remove from '../../../public/images/remove.svg'
+
 
 import { data } from './data'
 
@@ -28,22 +30,13 @@ export default function Main() {
   )
 }
 
-function useOpenController(initialState) {
-  const [isOpen, setIsOpen] = useState(initialState)
-
-  const toggle = useCallback(() => {
-    setIsOpen((state) => !state)
-  }, [setIsOpen])
-
-  return { isOpen, toggle }
-}
-
 const AccordionItem = ({ section, index, isActive, onClick }) => {
   return (
     <div className='accordion-container w-96'>
       <ExpendableColumn
         question={section.question}
         onClick={() => onClick(index)}
+        isActive={isActive}
       />
       {isActive && <TextSection text={section.answer} />}
       <div className='acc-underline'></div>
@@ -51,11 +44,12 @@ const AccordionItem = ({ section, index, isActive, onClick }) => {
   )
 }
 
-const ExpendableColumn = ({ question, onClick }) => {
+const ExpendableColumn = ({ question, onClick, isActive }) => {
   return (
     <div className='column-container w-96' onClick={onClick}>
       <p className='text-3xl'>{question}</p>
-      <button><Image className='h-7 w-7' src={add} alt="addition icon" /></button>
+      {isActive ? <button><Image className='h-7 w-7' src={remove} alt="addition icon" /></button> : <button><Image className='h-7 w-7' src={add} alt="addition icon" /></button>}
+      
     </div>
   )
 }

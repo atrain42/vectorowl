@@ -53,9 +53,9 @@ export default function About() {
         </p>
       </span>
 
-      <Flex {...data[0]} />
+      <Flex {...data[0]} link={true} route="illustrations" linkText="Illustration sets" />
       <FlexReverse {...data[1]} />
-      <Flex {...data[2]} link={true} />
+      <Flex {...data[2]} link={true} route="brand-building" linkText="Brand building" />
     </div>
   )
 }

@@ -30,9 +30,9 @@ const Charity = () => {
         </div>
         <div className='px-12 flex-1 flex flex-col items-center justify-center w-screen'>
           <div className='mv:mt-16 md:mt-0 mv:w-full md:w-96'>
-            <p className='text-4xl mb-4 text-black'>Charity support</p>
+            <p className='text-4xl mb-4 text-black'>Adding attributes</p>
             <p className='font-semibold mb-4 text-black'>
-              At VectorOwl, we value giving back
+              There are two options to include attributes
             </p>
             <ul className='list-disc pl-8'>
               <li className='mb-2 text-black'>

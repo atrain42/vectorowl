@@ -2,21 +2,21 @@ export const data = [
   {
     question: 'Pricing',
     answer:
-    'Pricing is adjusted based on your needs. Reach out via email to negotiate a price.'
+      'Pricing is adjusted based on your needs. Reach out via email to negotiate a price.',
   },
   {
-    question: 'All yours',
+    question: 'Attributes',
     answer:
-      'Sed nec mollis quam. Cras rhoncus efficitur justo. Fusce ac rutrum est, in convallis turpis. Phasellus a enim et felis semper sodales eu a est. rutrum lacinia leo.',
+      "No image attributes are required for purchased images. They are yours to use however you'd like.",
   },
   {
-    question: 'File formats',
+    question: 'Formatting',
     answer:
-      'Sed nec mollis quam. Cras rhoncus efficitur justo. Fusce ac rutrum est, in convallis turpis. Phasellus a enim et felis semper sodus gravida pulvinar. Sed rutrum lacinia leo.',
+      'You will receive all purchased images in three formats: png, webp, and jpeg.',
   },
   {
-    question: 'Losing your password',
+    question: 'Payments',
     answer:
-      'Sed nec mollis quam. Cras rhoncus efficitur justo. Fusce ac rutrum est, in convallis turpis. Phasellus a enim et felis semper sodales eu a es. Sed rutrum lacinia leo.',
+      'Half of the agreed upon price is due up front. We accept multiple different payment options.',
   },
 ]

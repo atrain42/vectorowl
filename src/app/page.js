@@ -8,11 +8,12 @@ import Charity from '@/layout/Charity'
 import Faq from '@/layout/FAQ/Faq'
 import Contact from '@/layout/Contact'
 import Footer from '@/components/Footer'
-import Main from '@/components/Accordion/Main'
+import CoffeeLink from '@/components/CoffeeLink'
 
 export default function Home() {
   return (
     <main>
+      <CoffeeLink />
       <Navbar />
       <Header />
       <About />

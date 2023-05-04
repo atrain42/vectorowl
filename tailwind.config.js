@@ -13,6 +13,7 @@ module.exports = {
         black: '10px 10px 0px -2px #222222',
         shrink: '10px 10px 0px -12px rgba(0,0,0,1);',
         theme: '10px 10px 0px -2px #078080',
+        button: '0px 8px 15px rgba(0, 0, 0, 0.1);',
       },
 
       scale: {
