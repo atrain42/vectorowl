@@ -2,7 +2,6 @@
 import React, { useRef } from 'react'
 import Link from 'next/link'
 import { motion, useInView } from 'framer-motion'
-import Cart from '../Navbar/CartIcon'
 
 export default function MobileMenu({ open, setOpen }) {
   const animateFrom = { opacity: 0, y: 30 }
@@ -78,7 +77,6 @@ export default function MobileMenu({ open, setOpen }) {
               Sign Up
             </Link>
           </motion.li>
-          <Cart />
         </div>
       )}
     </>

@@ -7,6 +7,10 @@ module.exports = {
         '5xl': '40px',
       },
 
+      spacing: {
+        19: '4.5rem',
+      },
+
       boxShadow: {
         card: '0px 0px 4px 2px rgba(0, 0, 0, 0.1)',
         test: '10px 10px 0px -2px #417674',

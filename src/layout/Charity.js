@@ -24,7 +24,11 @@ const Charity = () => {
               <a className='underline' href='#'>
                 vectorowl.com
               </a>
-              <Image className='absolute top-8 right-0 h-24 w-auto' src={arrow} alt='arrow' />
+              <Image
+                className='absolute top-8 right-0 h-24 w-auto'
+                src={arrow}
+                alt='arrow'
+              />
             </p>
           </span>
         </div>
@@ -34,23 +38,16 @@ const Charity = () => {
             <p className='font-semibold mb-4 text-black'>
               There are two options to include attributes
             </p>
-            <ul className='list-disc pl-8'>
-              <li className='mb-2 text-black'>
-                We donate a percentage of our profits to charity each month.
-              </li>
-              <li className='mb-2 text-black'>
-                Currently, we are supporting Sages Beating Heart Foundation.
-              </li>
-              <li className='text-black'>
-                Learn more about{' '}
-                <Link
-                  className='underline'
-                  href='https://www.sagesbeatingheart.org/'
-                >
-                  Sages Beating Heart Foundation
-                </Link>
-              </li>
-            </ul>
+            <div className=''>
+              <p className='mb-2 text-black'>
+                1&#41; You can add the attribute under each individual image.
+              </p>
+              <p className='mb-8 text-black'>
+                2&#41; You can add one attribute in your footer to account for
+                all images on your site.
+              </p>
+              <p className='text-sm italic'>* The attribute must link back to this site</p>
+            </div>
           </div>
         </div>
       </div>

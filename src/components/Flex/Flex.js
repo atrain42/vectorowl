@@ -19,7 +19,7 @@ export default function Flex({img, title, subtitle, item1, item2, link, route, l
         </ul>
         {link && (
           <Link
-            className='flex-1 tracking-wider shadow-button bg-theme border border-black text-white text-center py-2 rounded-md hover:-translate-y-1 ease-in duration-150'
+            className='flex-1 tracking-wider shadow-button bg-theme text-white text-center py-2 rounded-md hover:-translate-y-1 ease-in duration-150'
             href={route}
           >
             {linkText}

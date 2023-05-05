@@ -10,7 +10,7 @@ import Main from '@/components/Accordion/Main'
 export default function index() {
   return (
     <>
-      <div className='flex flex-col items-center mt-16'>
+      <div className='flex flex-col items-center mt-36'>
         <h1 className='text-5xl font-semibold mb-3'>Brand Building</h1>
         <p className='text-xl mb-3'>Let us help build your UI/UX</p>
         <p className='w-6/12 text-center'>
@@ -24,7 +24,7 @@ export default function index() {
           <div className='bg-secondary h-12 w-12 rounded-full'></div>
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-60'>
+      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-72'>
         <p className='text-theme font-semibold mb-4'>FOR YOU</p>
         <h1 className='text-4xl text-center mb-4 w-5/12'>
           Need custom illustrations? We got you covered.
@@ -44,7 +44,7 @@ export default function index() {
           />
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80'>
+      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-72'>
         <h1 className='text-4xl text-center mb-4 w-4/12'>
           How to get started with us
         </h1>
@@ -61,7 +61,7 @@ export default function index() {
           />
         </div>
       </div>
-      <Contact padding='pt-44' />
+      <Contact padding='pt-72' />
     </>
   )
 }

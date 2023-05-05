@@ -55,7 +55,7 @@ export default function About() {
 
       <Flex {...data[0]} link={true} route="illustrations" linkText="Illustration sets" />
       <FlexReverse {...data[1]} />
-      <Flex {...data[2]} link={true} route="brand-building" linkText="Brand building" />
+      <Flex {...data[2]} link={true} route="brand-building" linkText="Work with us" />
     </div>
   )
 }
