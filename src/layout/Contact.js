@@ -1,8 +1,8 @@
 import Link from "next/link"
 
-export default function Contact({ padding }) {
+export default function Contact({ padding, mb }) {
   return (
-    <section className={`flex flex-col items-center justify-center ${padding}`}>
+    <section className={`flex flex-col items-center justify-center ${padding} ${mb}`}>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12'>
         <p className='text-xs bg-offwhite p-4 rounded-full border border-textblack'>
           Let&#39;s work together

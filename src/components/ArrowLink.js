@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from "react";
-// import chevron from '../../public/images/chevron.svg'
 
 
 export default function ArrowLink({ title }) {

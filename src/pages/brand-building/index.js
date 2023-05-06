@@ -3,7 +3,7 @@ import Contact from '@/layout/Contact'
 import Image from 'next/image'
 import brand11 from '../../../public/images/brand11.webp'
 import branding2 from '../../../public/images/branding-2.webp'
-import brand3 from '../../../public/images/brand3.webp'
+import branding69 from '../../../public/images/branding69.webp'
 import pp from '../../../public/images/theme-header-2.webp'
 import Main from '@/components/Accordion/Main'
 
@@ -45,9 +45,7 @@ export default function index() {
         </div>
       </div>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-72'>
-        <h1 className='text-4xl text-center mb-4 w-4/12'>
-          How to get started with us
-        </h1>
+        <h1 className='text-4xl text-center mb-4 w-4/12'>How to get started</h1>
         <p className='text-center w-6/12'>
           If you want us to build you custom illustrations, please describe your
           needs in an email below and we will reach out to you.
@@ -61,7 +59,23 @@ export default function index() {
           />
         </div>
       </div>
-      <Contact padding='pt-72' />
+      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-72'>
+        <h1 className='text-4xl text-center mb-4 w-4/12'>
+          Why choose Vector Owl?
+        </h1>
+        <p className='text-center w-6/12'>
+          If you want us to build you custom illustrations, please describe your
+          needs in an email below and we will reach out to you.
+        </p>
+        <div className='flex items-center justify-around mt-20 mv:flex-col-reverse md:flex-row'>
+          <Image
+            className='h-auto w-8/12'
+            src={branding69}
+            alt='vector branding concept illustration'
+          />
+        </div>
+      </div>
+      <Contact padding='pt-72' mb="mb-72" />
     </>
   )
 }

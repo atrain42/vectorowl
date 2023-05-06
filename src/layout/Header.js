@@ -13,8 +13,8 @@ const Header = () => {
         <p className='mt-5 text-lg w-full'>
           At Vector Owl, we create unique vector art that will separate your
           website from the competition. Choose from our collection of free
-          images, or work with us and we&#39;ll create custom
-          images for your design.
+          images, or hire us and we&#39;ll create custom
+          images to fit your design.
         </p>
         {/* <p>
           Today, so many websites are using the same style of vector images. We
@@ -25,13 +25,13 @@ const Header = () => {
             className='shadow-button w-full rounded font-poppins font-normal text-center py-4 bg-theme text-white hover:scale-102 active:scale-95 transition-all ease-in duration-50'
             href='/illustrations'
           >
-            Illustrations
+            Free illustrations
           </Link>
           <Link
             className='shadow-button w-full rounded text-center font-poppins font-normal py-4 border bg-white border-theme hover:scale-102 active:scale-95 transition-all ease-in duration-50'
             href='/brand-building'
           >
-            Work with us
+            Hire us
           </Link>
         </div>
       </div>
