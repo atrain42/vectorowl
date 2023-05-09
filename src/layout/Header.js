@@ -29,7 +29,7 @@ const Header = () => {
           </Link>
           <Link
             className='shadow-button w-full rounded text-center font-poppins font-normal py-4 border bg-white border-theme hover:scale-102 active:scale-95 transition-all ease-in duration-50'
-            href='/brand-building'
+            href='/hire-us'
           >
             Hire us
           </Link>

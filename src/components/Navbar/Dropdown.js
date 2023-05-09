@@ -45,7 +45,7 @@ const Dropdown = () => {
 
   return (
     <div className='relative mr-6'>
-      <span className='flex items-center cursor-pointer' onClick={showLinks}>
+      <span className='flex items-center cursor-pointer p-2 nav-link' onClick={showLinks}>
         <button>Company</button>
         <Image className='h-6 w-6 ml-1' src={chevron} alt='chevron-right' />
       </span>

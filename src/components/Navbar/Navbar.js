@@ -19,10 +19,16 @@ const Navbar = () => {
       </Link>
       <div className='mv:hidden md:flex'>
         <div className='flex items-center'>
-          <Link href='/illustrations' className='cursor-pointer mr-8'>
-            Work with us
+          <Link
+            href='/hire-us'
+            className='cursor-pointer mr-8 p-2 nav-link'
+          >
+            Hire us
           </Link>
-          <Link href='/illustrations' className='cursor-pointer mr-8'>
+          <Link
+            href='/illustrations'
+            className='cursor-pointer mr-8 p-2 nav-link'
+          >
             Illustrations
           </Link>
           <Dropdown />

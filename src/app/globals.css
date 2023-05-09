@@ -264,6 +264,10 @@ select {
   animation-duration: 1s;
 }
 
+.nav-link:hover {
+  background-color: rgba(244, 92, 72, 0.084);
+}
+
 @keyframes textanimate {
   0% {
     opacity: 0;
