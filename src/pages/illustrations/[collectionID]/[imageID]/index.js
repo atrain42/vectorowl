@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion'
-import { getImageByTitle } from '@/imagedata/black-V1'
+// import { getImageByURL } from '@/imagedata/black-V1'
+import { getCollectionById } from '@/collectiondata'
+
 import { useRouter } from 'next/router'
 import Image from 'next/image'
 import eyes from '../../../../../public/images/eyes.webp'
@@ -9,10 +11,17 @@ export default function PreviewedImage() {
   const router = useRouter()
 
   const imageID = router.query.imageID
+  const collectionID = router.query.collectionID
+  const test = getCollectionById(collectionID)
+  const getImageByURL = () => {
+    return test.imageData.find((image) => image.url === imageID)
+  }
 
-  const findImage = getImageByTitle(imageID)
-
+  const findImage = getImageByURL()
   const { title, image, collection, alt } = findImage
+
+
+
 
   return (
     <motion.div
@@ -41,4 +50,12 @@ export default function PreviewedImage() {
       </div>
     </motion.div>
   )
+}
+
+// Add to avoid lost collection data when the user refreshes
+// I have no reason why this works, I just found this solution on stack overflow
+export async function getServerSideProps(context) {
+  return {
+    props: {},
+  }
 }

@@ -13,6 +13,7 @@ export default function Collection() {
   const collection = getCollectionById(collectionID)
   const { title, col, description, id } = collection
 
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

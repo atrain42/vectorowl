@@ -14,7 +14,7 @@ const Header = () => {
           At Vector Owl, we create unique vector art that will separate your
           website from the competition. Choose from our collection of free
           images, or hire us and we&#39;ll create custom
-          images to fit your design.
+          images to better fit your design.
         </p>
         {/* <p>
           Today, so many websites are using the same style of vector images. We
