@@ -25,6 +25,8 @@ export default function Collections({ paddingTop }) {
               col={collection.col}
               id={collection.id}
               imageData={collection.imageData}
+              line={collection.line}
+              icon={collection.icon}
             />
           )
         })}
