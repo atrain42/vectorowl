@@ -30,13 +30,13 @@ export default function Collection() {
           Illustration sets
         </Link>
       </div>
-      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24 gap-x-16 gap-y-36 place-items-center'>
+      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24 gap-x-12 gap-y-36 place-items-center'>
         {collection.imageData.map((image, index) => {
           return (
             <Link
               href={`/illustrations/${id}/${image.url}`}
               key={index}
-              className='relative cursor-pointer h-full flex items-center hover:border hover:border-[#DCDCDC] hover:shadow-lg'
+              className='relative cursor-pointer h-full flex items-center hover:shadow-lg'
               onMouseEnter={() => setIsHovered(index)}
               onMouseLeave={() => setIsHovered(-1)}
             >
@@ -52,6 +52,7 @@ export default function Collection() {
               <Image
                 src={image.image}
                 alt={`Vector ${image.alt} illustration`}
+                className='h-52 w-auto'
               />
             </Link>
           )

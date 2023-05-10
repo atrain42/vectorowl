@@ -17,15 +17,9 @@ const data = [
     item1:
       'To download free images, preview the image and click the download button.',
     item2: 'When using our illustrations, you must include an image attribute.',
-  },
-  {
-    img: spinning,
-    title: 'Optimized images',
-    subtitle:
-      'Our images are optimized to look great on any platform or device',
-    item1: 'All images are available in .webp file extension.',
-    item2:
-      'Our images are vector graphics, which ensures they retain their quality and visual appeal on any background color.',
+    direction: 'flex-row',
+    route: '/illustrations',
+    linkText: 'Free illustrations'
   },
   {
     img: hanging,
@@ -35,6 +29,21 @@ const data = [
       'We offer to create custom illustrations that are tailored to your brand colors.',
     item2:
       'For custom illustrations, there is no need to include an attribute on the images.',
+    direction: 'flex-row-reverse',
+    route: '/hire-us',
+    linkText: 'Hire us'
+  },
+  {
+    img: spinning,
+    title: 'Optimized images',
+    subtitle:
+      'Our images are optimized to look great on any platform or device',
+    item1: 'All images are available in .webp file extension.',
+    item2:
+      'Our images are vector graphics, which ensures they retain their quality and visual appeal on any background color.',
+    direction: 'flex-row',
+    route: '/illustrations',
+    linkText: 'More about us'
   },
 ]
 
@@ -52,10 +61,22 @@ export default function About() {
           easy.
         </p>
       </span>
-
-      <Flex {...data[0]} link={true} route="illustrations" linkText="Illustration sets" />
-      <FlexReverse {...data[1]} />
-      <Flex {...data[2]} link={true} route="brand-building" linkText="Work with us" />
+      {data.map((flex, index) => {
+        return (
+          <Flex 
+            key={index}
+            img={flex.img}
+            title={flex.title}
+            subtitle={flex.subtitle}
+            item1={flex.item1}
+            item2={flex.item2}
+            link={flex.link}
+            route={flex.route}
+            linkText={flex.linkText}
+            direction={flex.direction}
+          />
+        )
+      })}
     </div>
   )
 }
