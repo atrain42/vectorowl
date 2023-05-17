@@ -32,7 +32,7 @@ export default function MobileMenu({ open, setOpen }) {
                 opacity: isInView ? 'opacity-100' : 'opactity-0',
               }}
             >
-              Artwork
+              Illustrations
             </Link>
           </motion.li>
           <motion.li
@@ -53,7 +53,7 @@ export default function MobileMenu({ open, setOpen }) {
                 opacity: isInView ? 'opacity-100' : 'opactity-0',
               }}
             >
-              Sign In
+              Hire us
             </Link>
           </motion.li>
           <motion.li
@@ -74,7 +74,7 @@ export default function MobileMenu({ open, setOpen }) {
                 opacity: isInView ? 'opacity-100' : 'opactity-0',
               }}
             >
-              Sign Up
+              About
             </Link>
           </motion.li>
         </div>

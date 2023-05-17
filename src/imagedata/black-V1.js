@@ -2,6 +2,8 @@ import ambientResize from '@/../public/images/black-V1/ambient-resize-bw.webp'
 import artClass from '@/../public/images/black-V1/art-class-bw.webp'
 import birdDebrief from '@/../public/images/black-V1/bird-debrief-bw.webp'
 import bookReturn from '@/../public/images/black-V1/book-return-bw.webp'
+import brandElevation from '@/../public/images/black-V1/brand-elevation-bw.webp'
+import brightIdea from '@/../public/images/black-V1/bright-idea-bw.webp'
 import connectFour from '@/../public/images/black-V1/connect-four-bw.webp'
 import cyberSecurity from '@/../public/images/black-V1/cyber-security-bw.webp'
 import dealMaker from '@/../public/images/black-V1/deal-maker-bw.webp'
@@ -18,10 +20,12 @@ import morningCoffee from '@/../public/images/black-V1/morning-coffee-bw.webp'
 import movieScript from '@/../public/images/black-V1/movie-script-bw.webp'
 import multiTasking from '@/../public/images/black-V1/multi-tasking-bw.webp'
 import nancyDrew from '@/../public/images/black-V1/nancy-drew-bw.webp'
+import pixelCreate from '@/../public/images/black-V1/pixel-create-bw.webp'
 import pristinePrecision from '@/../public/images/black-V1/pristine-precision-bw.webp'
 import puppetMaster from '@/../public/images/black-V1/puppet-master-bw.webp'
 import saturdayNight from '@/../public/images/black-V1/saturday-night-bw.webp'
 import schoolNotes from '@/../public/images/black-V1/school-notes-bw.webp'
+import scrambledScreen from '@/../public/images/black-V1/scrambled-screen-bw.webp'
 import screenCanvas from '@/../public/images/black-V1/screen-canvas-bw.webp'
 import screenHopper from '@/../public/images/black-V1/screen-hopper-bw.webp'
 import simpleMath from '@/../public/images/black-V1/simple-math-bw.webp'
@@ -29,6 +33,7 @@ import skyParadise from '@/../public/images/black-V1/sky-paradise-bw.webp'
 import stackedPapers from '@/../public/images/black-V1/stacked-papers-bw.webp'
 import structuredChaos from '@/../public/images/black-V1/structured-chaos-bw.webp'
 import takeFlight from '@/../public/images/black-V1/take-flight-bw.webp'
+import thoughtBubble from '@/../public/images/black-V1/thought-bubble-bw.webp'
 import uniqueUnboxing from '@/../public/images/black-V1/unique-unboxing-bw.webp'
 import visionTest from '@/../public/images/black-V1/vision-test-bw.webp'
 
@@ -60,6 +65,20 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'book return',
     url: 'book-return-bw',
+  },
+  {
+    image: brandElevation,
+    title: 'Brand Elevation',
+    collection: 'Black and White Collection',
+    alt: 'brand elevation concept',
+    url: 'brand-elevation-bw',
+  },
+  {
+    image: brightIdea,
+    title: 'Bright Idea',
+    collection: 'Black and White Collection',
+    alt: 'idea collaboration concept',
+    url: 'bright-idea-bw',
   },
   {
     image: connectFour,
@@ -174,6 +193,13 @@ export const blackV1 = [
     url: 'nancy-drew-bw',
   },
   {
+    image: pixelCreate,
+    title: 'Pixel Create',
+    collection: 'Black and White Collection',
+    alt: 'create your future concept',
+    url: 'pixel-create-bw',
+  },
+  {
     image: pristinePrecision,
     title: 'Pristine Precision',
     collection: 'Black and White Collection',
@@ -207,6 +233,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'painting with computer screens',
     url: 'screen-canvas-bw',
+  },
+  {
+    image: scrambledScreen,
+    title: 'Scrambled Screen',
+    collection: 'Black and White Collection',
+    alt: 'screen scramler concept',
+    url: 'scrambled-screen-bw',
   },
   {
     image: screenHopper,
@@ -249,6 +282,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'paper airplane flying across screens concept',
     url: 'take-flight-bw',
+  },
+  {
+    image: thoughtBubble,
+    title: 'Thought Bubble',
+    collection: 'Black and White Collection',
+    alt: 'kite flying computer concept',
+    url: 'thought-bubble-bw',
   },
   {
     image: uniqueUnboxing,

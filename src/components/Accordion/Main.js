@@ -15,7 +15,7 @@ export default function Main() {
   }
 
   return (
-    <div>
+    <div className='mv:w-full md:w-96 mv:mt-20 md:mt-0'>
       {data.map((section, index) => (
         <AccordionItem
           key={index}
@@ -23,7 +23,7 @@ export default function Main() {
           index={index}
           isActive={index === activeIndex}
           onClick={handleItemClick}
-          className="w-96"
+          className="mv:w-full md:w-96"
         />
       ))}
     </div>
@@ -32,7 +32,7 @@ export default function Main() {
 
 const AccordionItem = ({ section, index, isActive, onClick }) => {
   return (
-    <div className='accordion-container w-96'>
+    <div className='accordion-container mv:w-full md:w-96'>
       <ExpendableColumn
         question={section.question}
         onClick={() => onClick(index)}

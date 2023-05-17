@@ -20,7 +20,7 @@ export default function Collection() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.0 }}
-      className='mb-40'
+      className='mb-40 px-8'
     >
       <div className='flex flex-col justify-center items-center mt-16 mb-16'>
         <p>{title}</p>
@@ -30,7 +30,7 @@ export default function Collection() {
           Illustration sets
         </Link>
       </div>
-      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-24 gap-x-12 gap-y-36 place-items-center'>
+      <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mv:px-0 md:px-24 mv:gap-x-0 md:gap-x-12 gap-y-36 place-items-center'>
         {collection.imageData.map((image, index) => {
           return (
             <Link

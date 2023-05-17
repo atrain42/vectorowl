@@ -10,8 +10,9 @@ export default function index() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.0 }}
+      className='mb-72'
     >
-      <Collections paddingTop='p-16'/>
+      <Collections paddingTop='pt-16'/>
     </motion.div>
   )
 }

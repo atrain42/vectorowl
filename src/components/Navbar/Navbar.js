@@ -13,7 +13,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className='w-full sticky z-40 top-0 flex justify-between items-center shadow-md py-6 bg-white z-100 mv:px-4 md:px-8'>
+    <nav className='w-full sticky z-40 top-0 flex justify-between items-center shadow-md py-6 bg-white z-100 mv:px-4 md:px-8 h-20'>
       <Link className='cursor-pointer mr-4' href='/'>
         <Image className='w-40' src={logo} alt='logo' />
       </Link>

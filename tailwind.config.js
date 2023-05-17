@@ -13,7 +13,6 @@ module.exports = {
 
       boxShadow: {
         card: '0px 0px 4px 2px rgba(0, 0, 0, 0.1)',
-        test: '10px 10px 0px -2px #417674',
         black: '10px 10px 0px -2px #222222',
         shrink: '10px 10px 0px -12px rgba(0,0,0,1);',
         theme: '10px 10px 0px -2px #078080',
@@ -29,6 +28,8 @@ module.exports = {
         secondary: '#f45d48',
         offwhite: '#f8f5f2',
         textblack: '#222222',
+        fadedTheme: 'rgba(7, 128, 128, 0.075)',
+        fadedBlack: 'rgba(34, 34, 34, 0.075)',
       },
 
       borderWidth: {
@@ -40,6 +41,7 @@ module.exports = {
         200: '26rem',
         300: '22rem',
         400: '44rem',
+        500: '50rem',
         form: '52rem',
         0.75: '3px',
       },

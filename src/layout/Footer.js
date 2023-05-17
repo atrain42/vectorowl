@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Footer = ({ padding }) => {
   const getYear = () => {
     const date = new Date();
@@ -12,9 +14,10 @@ const Footer = ({ padding }) => {
         <div className='mv:mb-12 sm:mb-0'>
           <p className='mb-4 font-semibold'>Vector Owl</p>
           <p className='text-sm'>
-            At Vector Owl, we offer scalable vector illustrations for various use
-            cases such as branding, marketing, web & app design, and more. Our
-            illustrations are unique and versatile to fit your project needs.
+            At Vector Owl, we offer scalable vector illustrations for various
+            use cases such as branding, marketing, web & app design, and more.
+            Our illustrations are unique and versatile to fit your project
+            needs.
           </p>
         </div>
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
@@ -27,11 +30,11 @@ const Footer = ({ padding }) => {
         </div>
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
           <p className='mb-5 font-semibold'>Navigation</p>
-          <ul className='cursor-pointer'>
-            <li className='mb-2 text-sm'>Home</li>
-            <li className='mb-2 text-sm'>Illustrations</li>
-            <li className='mb-2 text-sm'>Contact</li>
-          </ul>
+          <div className='flex flex-col cursor-pointer'>
+            <Link href='/' className='mb-2 text-sm hover:underline'>Home</Link>
+            <Link href='/hire-us' className='mb-2 text-sm hover:underline'>Hire us</Link>
+            <Link href='/illustrations' className='mb-2 text-sm hover:underline'>Illustrations</Link>
+          </div>
         </div>
       </div>
       <div className='h-px w-full bg-gray-800'></div>

@@ -15,25 +15,6 @@
   --accent-color: #222222;
   --radius: 3px;
 
-  /* accordion */
-    --gh-pattern-1: #fff4f9;
-  --gh-pattern-2: #ffebf1;
-  --gh-pattern-3: #ffe3d7;
-  --gh-pattern-4: #ffe2b1;
-  --gh-pattern-5: #ffea8b;
-
-  --gh-blue-0: #e3f1f7;
-  --gh-blue-1: #e6ebff;
-  --gh-blue-2: #a2ddf6;
-  --gh-blue-3: #7dcff2;
-  --gh-blue-4: #58c1ee;
-  --gh-blue-5: #33b4eb;
-  --gh-blue-6: #16a3df;
-  --gh-blue-7: #1287ba;
-  --gh-blue-8: #0f6c95;
-  --gh-blue-9: #0a41fa;
-  --gh-blue-10: #101068;
-
   --transition: all 0.3s linear;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -78,7 +59,7 @@ ul li {
   font-family: "Poppins", 'Roboto', sans-serif;
   font-style: normal;
   color: #241c15;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 form > * {
@@ -277,4 +258,35 @@ select {
     opacity: 1;
     max-height: 350px;
   }
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid #9ca3af;
+  font-size: 14px;
+}
+
+.form-input::placeholder {
+  color: #d1d5db;
+  font-size: 16px;
+}
+
+.form-input:focus {
+  outline: none;
+  border-bottom: 1px solid #078080;
+  background-color: #f8f5f2;
+}
+
+form label {
+  font-size: 14px;
+}
+
+.hire-landing {
+  height: calc(100vh - 10rem);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

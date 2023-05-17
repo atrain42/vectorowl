@@ -6,7 +6,7 @@ import arrow from '../../public/images/arrowai.webp'
 
 const Charity = () => {
   return (
-    <section className='mt-80 py-28'>
+    <section className='mt-80'>
       <span>
         <h2 className='text-4xl w-96 text-black text-center mx-auto mb-6'>
           Image attributes

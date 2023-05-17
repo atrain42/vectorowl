@@ -2,6 +2,8 @@ import ambientResize from '@/../public/images/color/ambient-resize-co.webp'
 import artClass from '@/../public/images/color/art-class-co.webp'
 import birdDebrief from '@/../public/images/color/bird-debrief-co.webp'
 import bookReturn from '@/../public/images/color/book-return-co.webp'
+import brandElevation from '@/../public/images/color/brand-elevation-co.webp'
+import brightIdea from '@/../public/images/color/bright-idea-co.webp'
 import connectFour from '@/../public/images/color/connect-four-co.webp'
 import cyberSecurity from '@/../public/images/color/cyber-security-co.webp'
 import dealMaker from '@/../public/images/color/deal-maker-co.webp'
@@ -18,10 +20,12 @@ import morningCoffee from '@/../public/images/color/morning-coffee-co.webp'
 import movieScript from '@/../public/images/color/movie-script-co.webp'
 import multiTasking from '@/../public/images/color/multi-tasking-co.webp'
 import nancyDrew from '@/../public/images/color/nancy-drew-co.webp'
+import pixelCreate from '@/../public/images/color/pixel-create-co.webp'
 import pristinePrecision from '@/../public/images/color/pristine-precision-co.webp'
 import puppetMaster from '@/../public/images/color/puppet-master-co.webp'
 import saturdayNight from '@/../public/images/color/saturday-night-co.webp'
 import schoolNotes from '@/../public/images/color/school-notes-co.webp'
+import scrambledScreen from '@/../public/images/color/scrambled-screen-co.webp'
 import screenCanvas from '@/../public/images/color/screen-canvas-co.webp'
 import screenHopper from '@/../public/images/color/screen-hopper-co.webp'
 import simpleMath from '@/../public/images/color/simple-math-co.webp'
@@ -29,6 +33,7 @@ import skyParadise from '@/../public/images/color/sky-paradise-co.webp'
 import stackedPapers from '@/../public/images/color/stacked-papers-co.webp'
 import structuredChaos from '@/../public/images/color/structured-chaos-co.webp'
 import takeFlight from '@/../public/images/color/take-flight-co.webp'
+import thoughtBubble from '@/../public/images/color/thought-bubble-co.webp'
 import uniqueUnboxing from '@/../public/images/color/unique-unboxing-co.webp'
 import visionTest from '@/../public/images/color/vision-test-co.webp'
 
@@ -60,6 +65,20 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'book return',
     url: 'book-return-co',
+  },
+  {
+    image: brandElevation,
+    title: 'Brand Elevation',
+    collection: 'Color Collection',
+    alt: 'brand elevation concept',
+    url: 'brand-elevation-co',
+  },
+  {
+    image: brightIdea,
+    title: 'Bright Idea',
+    collection: 'Color Collection',
+    alt: 'idea collaboration concept',
+    url: 'bright-idea-co',
   },
   {
     image: connectFour,
@@ -174,6 +193,13 @@ export const colorV1 = [
     url: 'nancy-drew-co',
   },
   {
+    image: pixelCreate,
+    title: 'Pixel Create',
+    collection: 'Color Collection',
+    alt: 'create your future concept',
+    url: 'pixel-create-co',
+  },
+  {
     image: pristinePrecision,
     title: 'Pristine Precision',
     collection: 'Color Collection',
@@ -207,6 +233,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'painting with computer screens',
     url: 'screen-canvas-co',
+  },
+  {
+    image: scrambledScreen,
+    title: 'Scrambled Screen',
+    collection: 'Color Collection',
+    alt: 'screen scramler concept',
+    url: 'scrambled-screen-co',
   },
   {
     image: screenHopper,
@@ -249,6 +282,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'paper airplane flying across screens concept',
     url: 'take-flight-co',
+  },
+  {
+    image: thoughtBubble,
+    title: 'Thought Bubble',
+    collection: 'Color Collection',
+    alt: 'kite flying computer concept',
+    url: 'thought-bubble-co',
   },
   {
     image: uniqueUnboxing,

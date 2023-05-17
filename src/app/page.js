@@ -7,7 +7,7 @@ import Collections from '@/layout/Collections'
 import Charity from '@/layout/Charity'
 import Faq from '@/layout/FAQ/Faq'
 import Contact from '@/layout/Contact'
-import Footer from '@/components/Footer'
+import Footer from '@/layout/Footer'
 import CoffeeLink from '@/components/CoffeeLink'
 
 export default function Home() {
