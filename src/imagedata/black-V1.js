@@ -4,9 +4,11 @@ import birdDebrief from '@/../public/images/black-V1/bird-debrief-bw.webp'
 import bookReturn from '@/../public/images/black-V1/book-return-bw.webp'
 import brandElevation from '@/../public/images/black-V1/brand-elevation-bw.webp'
 import brightIdea from '@/../public/images/black-V1/bright-idea-bw.webp'
+import cashBalance from '@/../public/images/black-V1/cash-balance-bw.webp'
 import connectFour from '@/../public/images/black-V1/connect-four-bw.webp'
 import cyberSecurity from '@/../public/images/black-V1/cyber-security-bw.webp'
 import dealMaker from '@/../public/images/black-V1/deal-maker-bw.webp'
+import devPipeline from '@/../public/images/black-V1/dev-pipeline-bw.webp'
 import elderScrolls from '@/../public/images/black-V1/elder-scrolls-bw.webp'
 import financeTracker from '@/../public/images/black-V1/finance-tracker-bw.webp'
 import formPacman from '@/../public/images/black-V1/form-pacman-bw.webp'
@@ -81,6 +83,13 @@ export const blackV1 = [
     url: 'bright-idea-bw',
   },
   {
+    image: cashBalance,
+    title: 'Cash Balance',
+    collection: 'Black and White Collection',
+    alt: 'balancing your assets',
+    url: 'cash-balance-bw',
+  },
+  {
     image: connectFour,
     title: 'Connect Four',
     collection: 'Black and White Collection',
@@ -100,6 +109,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'making deals and money concept',
     url: 'deal-maker-bw',
+  },
+  {
+    image: devPipeline,
+    title: 'Dev Pipeline',
+    collection: 'Black and White Collection',
+    alt: 'the journey to development',
+    url: 'dev-pipeline-bw',
   },
   {
     image: elderScrolls,

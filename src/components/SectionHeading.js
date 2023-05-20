@@ -5,7 +5,7 @@ const SectionHeading = ({ title, description, padding }) => {
     <div
       className={`flex flex-col justify-center items-center ${padding} mv:px-8 md:px-0 mb-12`}
     >
-      <h2 className='text-center'>{title}</h2>
+      <h2 className='text-center text-4xl'>{title}</h2>
       <p className='mt-5 text-center mv:w-full md:w-400'>
         {description}
       </p>

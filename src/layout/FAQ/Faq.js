@@ -6,27 +6,27 @@ import SectionHeading from '@/components/SectionHeading'
 const questions = [
   {
     number: '1.',
-    question: 'Can I share images?',
+    question: 'Do I own the free illustrations?',
     answer:
-      "No. When you purchase an image, only you obtain the rights to that image and only you can use it for personal use. You can't share images with other people; this violates our terms of service.",
+      'No. Although you can use them however you please, you are prohibited from reselling or redistributing any images obtained from this website as your own',
   },
   {
     number: '2.',
-    question: 'Can I get a refund?',
-    answer:
-      'Unfortunately at HollowBox, we do not offer refunds. All sales on this site are final and no returns are accepted. If there are any issues with your purchase, please contact us and we will resolve it.',
-  },
-  {
-    number: '3.',
     question: 'What format are the images in?',
     answer:
       'All images on the site are in .webp format. When you download an image, it will have a .webp file extension. We did this because .webp is the best format for images being displayed on the web. If you want additional file extensions, please reach out and we will supply your image in the specified format.',
   },
   {
-    number: '4.',
-    question: 'Do I own the rights to the images I download?',
+    number: '3.',
+    question: 'Do I have to use image attributes?',
     answer:
-      "Yes! You own all the rights of the images you download as long as you paid for them. You are free to use them however you want and there is no need to give us credit (unless you want to). However, you can't resell the images as your own.",
+      'Yes. For free illustrations, you must include an image attribution. You can either put the attribution underneath each illustration, or include one somewhere on your site to account for all use cases.',
+  },
+  {
+    number: '4.',
+    question: 'How do I get custom illustrations?',
+    answer:
+      'For inquiries on custom illustrations for your project, please visit the hire us page. Here, you can fill out a form and we will get back with you via email.',
   },
 ]
 

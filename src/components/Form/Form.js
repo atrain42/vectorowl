@@ -2,18 +2,13 @@ import { FormControl, FormLabel, Input, Textarea, FormErrorMessage, ChakraProvid
 import { sendContactForm } from 'lib/api'
 import React, { useState } from 'react'
 
-// const currentcyFormat = new Intl.NumberFormat('en-US', {
-//   style: 'currency',
-//   currency: 'USD',
-// })
-
-  const initValues = {
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-  }
-  const initState = { values: initValues }
+const initValues = {
+  name: '',
+  email: '',
+  subject: '',
+  message: '',
+}
+const initState = { values: initValues }
 
 export default function Form() {
   const toast = useToast()
@@ -61,28 +56,15 @@ export default function Form() {
     
   }
 
-  // const [value, setValue] = useState('')
-
-  // const keyPressHandler = (event) => {
-  //   const { key } = event
-  //   setValue((prevValue) =>
-  //     key !== 'Backspace'
-  //       ? !Number.isNaN(parseInt(key)) || key === ',' || key === '.'
-  //         ? prevValue + key
-  //         : prevValue
-  //       : prevValue.substring(0, prevValue.length - 1)
-  //   )
-  // }
-
   return (
     <ChakraProvider>
-      <Container>
+      <Container className='flex flex-col items-center'>
         {error && (
           <Text color='red.300' my={4} fontSize='xl'>
             {error}
           </Text>
         )}
-        <FormControl isRequired isInvalid={touched.name && !values.name}>
+        <FormControl isRequired isInvalid={touched.name && !values.name} mb={5}>
           <FormLabel>Name</FormLabel>
           <Input
             type='text'
@@ -95,7 +77,11 @@ export default function Form() {
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
 
-        <FormControl isRequired isInvalid={touched.email && !values.email}>
+        <FormControl
+          isRequired
+          isInvalid={touched.email && !values.email}
+          mb={5}
+        >
           <FormLabel>Email</FormLabel>
           <Input
             type='email'
@@ -108,7 +94,11 @@ export default function Form() {
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
 
-        <FormControl isRequired isInvalid={touched.subject && !values.subject}>
+        <FormControl
+          isRequired
+          isInvalid={touched.subject && !values.subject}
+          mb={5}
+        >
           <FormLabel>Subject</FormLabel>
           <Input
             type='text'
@@ -121,7 +111,11 @@ export default function Form() {
           <FormErrorMessage>Required</FormErrorMessage>
         </FormControl>
 
-        <FormControl isRequired isInvalid={touched.message && !values.message}>
+        <FormControl
+          isRequired
+          isInvalid={touched.message && !values.message}
+          mb={5}
+        >
           <FormLabel>Message</FormLabel>
           <Textarea
             type='text'

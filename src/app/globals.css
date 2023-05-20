@@ -50,8 +50,8 @@ h2 {
 
 p {
   font-family: "Poppins", 'Roboto', sans-serif;
-  font-style: normal;
-  color: #241c15;
+  font-weight: 400;
+  color: #303030;
   font-size: 1.1rem;
 }
 
@@ -281,9 +281,9 @@ form label {
   font-size: 14px;
 }
 
-.hire-landing {
+/* .hire-landing {
   height: calc(100vh - 10rem);
-}
+} */
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {

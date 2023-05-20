@@ -1,11 +1,11 @@
 import Link from "next/link"
 
-export default function Contact({ padding, mb }) {
+export default function Contact({ padding }) {
   return (
-    <section className={`flex flex-col items-center justify-center ${padding} ${mb}`}>
+    <section className='flex flex-col items-center justify-center pt-80 mb-40'>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12'>
         <p className='text-xs bg-offwhite p-4 rounded-full border border-textblack'>
-          Let&#39;s work together
+          We appreciate you
         </p>
         <h2 className='text-center mt-8'>Get in touch</h2>
         <p className='mt-5 text-center mv:w-full md:w-400'>

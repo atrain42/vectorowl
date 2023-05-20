@@ -1,7 +1,8 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import Term from '../terms/term'
 
-export default function copyright() {
+export default function Copyright() {
   const text = 
       `  All images on this website are the property of
         vectorowl.com and are protected under copyright law. Users are
@@ -13,9 +14,15 @@ export default function copyright() {
         this website may result in legal action.
       `
   return (
-    <div className='flex flex-col items-center mb-40'>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 1.0 }}
+      className='flex flex-col items-center mb-40'
+    >
       <h2 className='text-center my-16'>Copyright</h2>
-      <Term title="Our Policy" text={text}/>
-    </div>
+      <Term title='Our Policy' text={text} />
+    </motion.div>
   )
 }

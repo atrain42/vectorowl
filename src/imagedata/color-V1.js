@@ -4,9 +4,11 @@ import birdDebrief from '@/../public/images/color/bird-debrief-co.webp'
 import bookReturn from '@/../public/images/color/book-return-co.webp'
 import brandElevation from '@/../public/images/color/brand-elevation-co.webp'
 import brightIdea from '@/../public/images/color/bright-idea-co.webp'
+import cashBalance from '@/../public/images/color/cash-balance-co.webp'
 import connectFour from '@/../public/images/color/connect-four-co.webp'
 import cyberSecurity from '@/../public/images/color/cyber-security-co.webp'
 import dealMaker from '@/../public/images/color/deal-maker-co.webp'
+import devPipeline from '@/../public/images/color/dev-pipeline-co.webp'
 import elderScrolls from '@/../public/images/color/elder-scrolls-co.webp'
 import financeTracker from '@/../public/images/color/finance-tracker-co.webp'
 import formPacman from '@/../public/images/color/form-pacman-co.webp'
@@ -81,6 +83,13 @@ export const colorV1 = [
     url: 'bright-idea-co',
   },
   {
+    image: cashBalance,
+    title: 'Cash Balance',
+    collection: 'Color Collection',
+    alt: 'balancing your assets',
+    url: 'cash-balance-co',
+  },
+  {
     image: connectFour,
     title: 'Connect Four',
     collection: 'Color Collection',
@@ -100,6 +109,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'making deals and money concept',
     url: 'deal-maker-co',
+  },
+  {
+    image: devPipeline,
+    title: 'Dev Pipeline',
+    collection: 'Color Collection',
+    alt: 'the journey to development',
+    url: 'dev-pipeline-co',
   },
   {
     image: elderScrolls,

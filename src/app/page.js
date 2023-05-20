@@ -21,7 +21,7 @@ export default function Home() {
       <Charity />
       <Faq />
       <Contact padding='pt-80' />
-      <Footer padding='pt-80' />
+      <Footer />
     </main>
   )
 }

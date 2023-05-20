@@ -42,7 +42,7 @@ const data = [
     item2:
       'Our images are vector graphics, which ensures they retain their quality and visual appeal on any background color.',
     direction: 'flex-row',
-    route: '/illustrations',
+    route: '/about',
     linkText: 'More about us'
   },
 ]
@@ -50,13 +50,13 @@ const data = [
 
 export default function About() {
   return (
-    <div className='pt-80'>
+    <div className='pt-80 px-8'>
       <span className="flex flex-col items-center">
         <Image className="w-20 mb-8" src={owl} alt="owl eyes vector concept"/>
         <h2 className='text-4xl w-96 text-center mx-auto mb-6'>
           A new way to do images
         </h2>
-        <p className='text-center'>
+        <p className='text-center w-full'>
           Finding vector illustrations for your website has never been this
           easy.
         </p>

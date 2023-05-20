@@ -78,6 +78,10 @@ module.exports = {
         button: ['freight-sans-pro', 'Roboto', 'sans-serif'],
       },
 
+      fontSize: {
+        '3.5xl': '2rem',
+      },
+
       keyframes: {
         grow: {
           '0%, 100%': { transform: 'scale(1)' },

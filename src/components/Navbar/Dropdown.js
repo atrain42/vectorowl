@@ -24,15 +24,27 @@ const Dropdown = () => {
             exit={{ scale: 1 }}
             transition={{ duration: 0.05 }}
           >
-            <Link href='/copyright' onClick={closeDropdown}>
+            <Link
+              className='hover:underline'
+              href='/about'
+              onClick={closeDropdown}
+            >
               About
             </Link>
-            
-            <Link className="my-4" href='/terms' onClick={closeDropdown}>
+
+            <Link
+              className='my-4 hover:underline'
+              href='/terms'
+              onClick={closeDropdown}
+            >
               Terms
             </Link>
-            
-            <Link href='/copyright' onClick={closeDropdown}>
+
+            <Link
+              className='hover:underline'
+              href='/copyright'
+              onClick={closeDropdown}
+            >
               Copyright
             </Link>
           </motion.div>
