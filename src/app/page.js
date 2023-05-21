@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar/Navbar'
 import Header from '@/layout/Header'
 import About from '@/layout/About'
 import Collections from '@/layout/Collections'
-import Charity from '@/layout/Charity'
+import Attribute from '@/layout/Attribute'
 import Faq from '@/layout/FAQ/Faq'
 import Contact from '@/layout/Contact'
 import Footer from '@/layout/Footer'
@@ -18,7 +18,7 @@ export default function Home() {
       <Header />
       <About />
       <Collections paddingTop='pt-80' />
-      <Charity />
+      <Attribute />
       <Faq />
       <Contact padding='pt-80' />
       <Footer />

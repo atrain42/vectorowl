@@ -19,7 +19,7 @@ export default function Copyright() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1.0 }}
-      className='flex flex-col items-center mb-40'
+      className='flex flex-col items-center mb-40 px-8'
     >
       <h2 className='text-center my-16'>Copyright</h2>
       <Term title='Our Policy' text={text} />

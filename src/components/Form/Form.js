@@ -142,54 +142,5 @@ export default function Form() {
         </Button>
       </Container>
     </ChakraProvider>
-
-    // <form className='flex flex-col items-center justify-center font-poppins mt-16 mb-72 mv:w-full md:w-400'>
-    //   <div className='flex mv:flex-col sm:flex-row justify-between mv:w-full md:w-400 space-x-4'>
-    //     <span className='w-full'>
-    //       <label className='font-poppins font-medium'>First Name</label>
-    //       <input
-    //         className='form-input h-8 font-poppins'
-    //         placeholder='Enter your first name'
-    //       />
-    //     </span>
-    //     <span className='w-full'>
-    //       <label className='font-poppins font-medium'>Last Name</label>
-    //       <input
-    //         className='form-input h-8 font-poppins'
-    //         placeholder='Enter your last name'
-    //       />
-    //     </span>
-    //   </div>
-    //   <div className='flex mv:flex-col sm:flex-row justify-between mv:w-full md:w-400 space-x-4'>
-    //     <span className='w-full'>
-    //       <label className='font-poppins font-medium'>Email Address</label>
-    //       <input
-    //         className='form-input h-8 font-poppins'
-    //         placeholder='Enter your email'
-    //       />
-    //     </span>
-    //     <span className='w-full'>
-    //       <label className='font-poppins font-medium'>Budget</label>
-    //       <input
-    //         className='form-input h-8 font-poppins'
-    //         name='currency-input'
-    //         onKeyDown={keyPressHandler}
-    //         placeholder={currentcyFormat.format('')}
-    //         value={value !== '' ? currentcyFormat.format(value) : ''}
-    //       />
-    //     </span>
-    //   </div>
-    //   <div className='mv:w-full md:w-400'>
-    //     <label className='font-poppins font-medium'>Message</label>
-    //     <textarea
-    //       rows='8'
-    //       className='mv:w-full md:w-400 form-input'
-    //       placeholder='Your message here...'
-    //     ></textarea>
-    //   </div>
-    //   <button className='mt-12 shadow-button px-12 rounded font-poppins font-normal text-center py-4 bg-theme text-white hover:scale-102 transition-all ease-in duration-50'>
-    //     Submit
-    //   </button>
-    // </form>
   )
 }

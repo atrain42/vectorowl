@@ -3,7 +3,7 @@ import image from '../../public/images/building-theme.webp'
 import arrow from '../../public/images/arrowai.webp'
 
 
-const Charity = () => {
+const Attribute = () => {
   return (
     <section className='mt-80'>
       <span>
@@ -12,6 +12,7 @@ const Charity = () => {
         </h2>
         <p className='text-center w-3/6 mx-auto text-black'>
           We require you to add image attributions when using our illustrations.
+          There are two options you can choose from when adding attributes.
         </p>
       </span>
       <div className='flex items-center mt-32 mv:flex-col-reverse md:flex-row'>
@@ -33,20 +34,19 @@ const Charity = () => {
         </div>
         <div className='px-12 flex-1 flex flex-col items-center justify-center w-screen'>
           <div className='mv:mt-16 md:mt-0 mv:w-full md:w-96'>
-            <p className='text-4xl mb-4 text-black'>Adding attributes</p>
-            <p className='font-semibold mb-4 text-black'>
-              There are two options to include attributes
-            </p>
-            <div className=''>
-              <p className='mb-2 text-black'>
-                1&#41; You can add the attribute under each individual image.
+            <p className='text-3.5xl mb-4 text-black'>Attribute Options</p>
+            <ul className='list-disc'>
+              <li className='mb-2 text-black'>
+                You can add an attribute under each individual image as seen here.
+              </li>
+              <li className='mb-8 text-black'>
+                Or you can add one attribute in your footer to account for all
+                images on your site.
+              </li>
+              <p className='text-sm italic'>
+                * The attribute must link back to this site
               </p>
-              <p className='mb-8 text-black'>
-                2&#41; You can add one attribute in your footer to account for
-                all images on your site.
-              </p>
-              <p className='text-sm italic'>* The attribute must link back to this site</p>
-            </div>
+            </ul>
           </div>
         </div>
       </div>
@@ -54,4 +54,4 @@ const Charity = () => {
   )
 }
 
-export default Charity
+export default Attribute

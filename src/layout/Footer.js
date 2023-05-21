@@ -24,14 +24,6 @@ const Footer = ({ padding }) => {
           </p>
         </div>
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
-          <p className='mb-5 font-semibold'>Company</p>
-          <ul className='cursor-pointer'>
-            <li className='mb-2 text-sm'>About</li>
-            <li className='mb-2 text-sm'>Terms of Service</li>
-            <li className='mb-2 text-sm'>Privacy Policy</li>
-          </ul>
-        </div>
-        <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
           <p className='mb-5 font-semibold'>Navigation</p>
           <div className='flex flex-col cursor-pointer'>
             <Link href='/' className='mb-2 text-sm hover:underline'>
@@ -45,6 +37,20 @@ const Footer = ({ padding }) => {
               className='mb-2 text-sm hover:underline'
             >
               Illustrations
+            </Link>
+          </div>
+        </div>
+        <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
+          <p className='mb-5 font-semibold'>Company</p>
+          <div className='flex flex-col cursor-pointer'>
+            <Link href='/terms' className='mb-2 text-sm hover:underline'>
+              Terms
+            </Link>
+            <Link href='/about' className='mb-2 text-sm hover:underline'>
+              About
+            </Link>
+            <Link href='/copyright' className='mb-2 text-sm hover:underline'>
+              Copyright
             </Link>
           </div>
         </div>

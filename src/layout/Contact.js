@@ -9,8 +9,8 @@ export default function Contact({ padding }) {
         </p>
         <h2 className='text-center mt-8'>Get in touch</h2>
         <p className='mt-5 text-center mv:w-full md:w-400'>
-          If you experience any issues with your vector illustrations or think
-          we can work to improve the overall experience of the site, please
+          If you experience any issues with your vector illustrations or have
+          suggestions to improve the overall experience of the site, please
           reach out to us.
         </p>
       </div>

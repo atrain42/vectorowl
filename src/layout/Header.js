@@ -10,7 +10,7 @@ const Header = () => {
         <h1 className='text-5xl'>
           <strong>Vector illustrations</strong> for your website
         </h1>
-        <p className='mt-5 text-lg w-full'>
+        <p className='mt-5 w-full'>
           At Vector Owl, we create unique vector art that will separate your
           website from the competition. Choose from our collection of free
           images, or hire us and we&#39;ll create custom
