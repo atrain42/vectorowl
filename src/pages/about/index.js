@@ -1,5 +1,4 @@
 import React from 'react'
-import { NextSeo } from 'next-seo'
 import { motion } from 'framer-motion'
 import Term from '../terms/term'
 
@@ -26,10 +25,6 @@ export default function About () {
       transition={{ duration: 1.0 }}
       className='flex flex-col items-center mb-40 px-8'
     >
-      <NextSeo
-        title='Free Vector Illustrations | Collections'
-        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format. Premium illustrations available.'
-      />
       <h2 className='text-center my-16'>About</h2>
       <Term title='Our Mission' text={mission} />
       <Term title='Who are we' text={text} />
@@ -42,13 +37,13 @@ export default function About () {
           fingers across the sky and softly grazes the eagle&#39;s black
           feathers. The desert is unfamiliar territory for the eagle.<br></br>
           <br></br>While flying over endless miles of sand, the wind rips a seed
-          from within the eagle&#39;s fur and sends it hurtling toward the
-          earth. The seed sways in the wind like a fishing boat
-          navigating rough waters. Eventually, the seed becomes one with the
-          wind and moves perfectly with its currents. As the seed falls to the
-          ground, it lands on the back of a scorpion, causing the creature to
-          become alarmed and quickly burrow deep into the sand. With help from
-          the scorpion, the seed is planted deep into the ground. <br></br>
+          from within the eagle&#39;s fur and sends it hurtling toward the earth. The
+          seed rocks back and forth in the wind like a fishing boat navigating
+          rough waters. Eventually, the seed becomes one with the wind and moves
+          perfectly with its currents. As the seed falls to the ground, it lands
+          on the back of a scorpion, causing the creature to become alarmed and
+          quickly burrow deep into the sand. With help from the scorpion, the
+          seed is planted deep into the ground. <br></br>
           <br></br>As the days pass, the seed becomes desperate for water. It
           will turn to dust and mix with the surrounding sand if it doesn&#39;t
           receive nourishment soon. As the seed is about to wave the white flag

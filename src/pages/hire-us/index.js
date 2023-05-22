@@ -1,5 +1,4 @@
 import React from 'react'
-import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import brand11 from '../../../public/images/brand11.webp'
 import branding2 from '../../../public/images/branding-2.webp'
@@ -12,10 +11,6 @@ export default function index() {
   const scrollToForm = () => ref.current?.scrollIntoView({ behavior: 'smooth' })
   return (
     <div className='px-8 mb-40'>
-      <NextSeo
-        title='Premium Vector Illustrations'
-        description='A short description goes here.'
-      />
       <div className='hire-landing flex flex-col items-center justify-center mt-32'>
         <p className='text-theme font-semibold mb-3 text-lg'>FOR YOU</p>
         <h1 className='text-6xl font-semibold mb-3 text-center'>
