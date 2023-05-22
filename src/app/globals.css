@@ -259,34 +259,3 @@ select {
     max-height: 350px;
   }
 }
-
-.form-input {
-  border: none;
-  border-bottom: 1px solid #9ca3af;
-  font-size: 14px;
-}
-
-.form-input::placeholder {
-  color: #d1d5db;
-  font-size: 16px;
-}
-
-.form-input:focus {
-  outline: none;
-  border-bottom: 1px solid #078080;
-  background-color: #f8f5f2;
-}
-
-form label {
-  font-size: 14px;
-}
-
-/* .hire-landing {
-  height: calc(100vh - 10rem);
-} */
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}

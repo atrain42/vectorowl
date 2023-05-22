@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { getCollectionById } from '@/collectiondata'
 import { useRouter } from 'next/router'
+import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import Link from 'next/link'
 import svg from '../../../../public/images/eye.svg'
@@ -22,11 +23,18 @@ export default function Collection() {
       transition={{ duration: 1.0 }}
       className='mb-40 px-8'
     >
+      <NextSeo
+        title='Free Vector Illustrations | Collections'
+        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format. Premium illustrations available.'
+      />
       <div className='flex flex-col justify-center items-center mt-16 mb-16'>
         <p>{title}</p>
         <h2>{col}</h2>
         <p className='w-400 text-center mb-8'>{description}</p>
-        <Link href='/illustrations' className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 active:scale-95 transition-all ease-in duration-50'>
+        <Link
+          href='/illustrations'
+          className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 active:scale-95 transition-all ease-in duration-50'
+        >
           Illustration sets
         </Link>
       </div>

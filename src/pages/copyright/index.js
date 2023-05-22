@@ -1,4 +1,5 @@
 import React from 'react'
+import { NextSeo } from 'next-seo'
 import { motion } from 'framer-motion'
 import Term from '../terms/term'
 
@@ -21,6 +22,10 @@ export default function Copyright() {
       transition={{ duration: 1.0 }}
       className='flex flex-col items-center mb-40 px-8'
     >
+      <NextSeo
+        title='Free Vector Illustrations | Collections'
+        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format. Premium illustrations available.'
+      />
       <h2 className='text-center my-16'>Copyright</h2>
       <Term title='Our Policy' text={text} />
     </motion.div>

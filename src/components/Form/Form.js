@@ -131,7 +131,7 @@ export default function Form() {
 
         <Button
           variant='outline'
-          colorScheme='blue'
+          colorScheme='black'
           isLoading={state.isLoading}
           isDisabled={
             !values.name || !values.email || !values.subject || !values.message

@@ -47,9 +47,16 @@ const AccordionItem = ({ section, index, isActive, onClick }) => {
 const ExpendableColumn = ({ question, onClick, isActive }) => {
   return (
     <div className='column-container w-96' onClick={onClick}>
-      <p className='text-3xl'>{question}</p>
-      {isActive ? <button><Image className='h-7 w-7' src={remove} alt="addition icon" /></button> : <button><Image className='h-7 w-7' src={add} alt="addition icon" /></button>}
-      
+      <p className='text-3.5xl'>{question}</p>
+      {isActive ? (
+        <button>
+          <Image className='h-7 w-7' src={remove} alt='addition icon' />
+        </button>
+      ) : (
+        <button>
+          <Image className='h-7 w-7' src={add} alt='addition icon' />
+        </button>
+      )}
     </div>
   )
 }

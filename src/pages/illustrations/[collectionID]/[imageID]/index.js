@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-// import { getImageByURL } from '@/imagedata/black-V1'
+import { NextSeo } from 'next-seo'
 import { getCollectionById } from '@/collectiondata'
 
 import { useRouter } from 'next/router'
@@ -30,6 +30,10 @@ export default function PreviewedImage() {
       transition={{ duration: 1.0 }}
       className='flex bg-white items-center justify-evenly mv:flex-col-reverse sm:flex-row mt-24 mb-36 px-4'
     >
+      <NextSeo
+        title='Free Vector Illustrations | Collections'
+        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format. Premium illustrations available.'
+      />
       <div>
         <div className='flex flex-col mv:mr-0 mv:w-full md:mr-4 md:w-100 items-start'>
           {/* <span className='flex items-center mb-2'>

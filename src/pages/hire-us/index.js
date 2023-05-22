@@ -1,9 +1,7 @@
-import React, {useRef} from 'react'
-import Link from 'next/link'
-import Contact from '@/layout/Contact'
+import React from 'react'
+import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import brand11 from '../../../public/images/brand11.webp'
-import branding12 from '../../../public/images/branding12.webp'
 import branding2 from '../../../public/images/branding-2.webp'
 import branding69 from '../../../public/images/branding69.webp'
 import Main from '@/components/Accordion/Main'
@@ -14,11 +12,16 @@ export default function index() {
   const scrollToForm = () => ref.current?.scrollIntoView({ behavior: 'smooth' })
   return (
     <div className='px-8 mb-40'>
-
+      <NextSeo
+        title='Premium Vector Illustrations'
+        description='A short description goes here.'
+      />
       <div className='hire-landing flex flex-col items-center justify-center mt-32'>
         <p className='text-theme font-semibold mb-3 text-lg'>FOR YOU</p>
-        <h1 className='text-6xl font-semibold mb-3'>Brand Building</h1>
-        <p className='text-2xl mb-3 font-medium'>Let us help build your UI/UX</p>
+        <h1 className='text-6xl font-semibold mb-3 text-center'>
+          Custom Illustrations
+        </h1>
+        <p className='text-2xl mb-3 font-medium'>We&#39;ll help your brand stand out</p>
         <p className='mv:w-full sm:w-500 text-center'>
           Are you looking to take your design beyond the free illustrations we
           offer? Then take a journey with us into the Forbidden Forest and
@@ -35,9 +38,9 @@ export default function index() {
           Need custom illustrations? We got you covered.
         </h1>
         <p className='text-center mv:w-full sm:w-500'>
-          If you want illustrations tailored to your brand, we got you covered.
-          We make custom illustrations tailored to your{' '}
-          <span className='text-secondary font-semibold'>brand</span>{' '}
+          If you want custom illustrations tailored to your brand, then
+          we&#39;ve got you covered. We make custom illustrations tailored to
+          your <span className='text-secondary font-semibold'>brand</span>{' '}
           <span className='text-theme font-semibold'>colors.</span>
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
