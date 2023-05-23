@@ -1,15 +1,12 @@
+'use client'
+
 import Link from "next/link";
 import Image from "next/image";
 import twitter from '../../public/images/twitter.svg'
 import instagram from '../../public/images/instagram.svg'
+import Copyright from "@/components/Copyright";
 
 const Footer = ({ padding }) => {
-  const getYear = () => {
-    const date = new Date();
-    let year = date.getFullYear();
-
-    return year;
-  };
 
   return (
     <footer className='mv:px-8 md:px-20 py-12 bg-offwhite'>
@@ -57,10 +54,8 @@ const Footer = ({ padding }) => {
       </div>
       <div className='h-px w-full bg-gray-800'></div>
       <div className='flex items-center mt-4'>
-        <p className=' text-left text-sm mr-12'>
-          &#xA9; Vector Owl, {getYear()}. All Rights Reserved.
-        </p>
-        <div className='flex space-x-3.5'>
+        <Copyright />
+        <div className='flex space-x-3.5 ml-12'>
           <Link
             href='https://twitter.com/_PixelPrism'
             className='nav-link p-2 rounded-full transition-all ease-in duration-150'

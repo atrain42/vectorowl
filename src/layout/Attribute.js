@@ -5,17 +5,17 @@ import arrow from '../../public/images/arrowai.webp'
 
 const Attribute = () => {
   return (
-    <section className='mt-80'>
+    <section className='mt-80 px-8'>
       <span>
         <h2 className='text-4xl w-96 text-black text-center mx-auto mb-6'>
           Image attributes
         </h2>
-        <p className='text-center w-3/6 mx-auto text-black'>
+        <p className='text-center mx-auto text-black mv:w-full md:w-400'>
           We require you to add image attributions when using our illustrations.
           There are two options you can choose from when adding attributes.
         </p>
       </span>
-      <div className='flex items-center mt-32 mv:flex-col-reverse md:flex-row'>
+      <div className='flex items-center mv:mt-8 md:mt-32 mv:flex-col md:flex-row'>
         <div className='flex-1 relative flex flex-col items-center justify-center mv:w-screen md:w-7/12 mv:mt-16 md:mt-0'>
           <Image className='h-auto w-4/6' src={image} alt='platform' />
           <span className='relative'>
@@ -37,7 +37,8 @@ const Attribute = () => {
             <p className='text-3.5xl mb-4 text-black'>Attribute Options</p>
             <ul className='list-disc'>
               <li className='mb-2 text-black'>
-                You can add an attribute under each individual image as seen here.
+                You can add an attribute under each individual image as seen
+                here.
               </li>
               <li className='mb-8 text-black'>
                 Or you can add one attribute in your footer to account for all

@@ -13,20 +13,27 @@ export default function index() {
     <div className='px-8 mb-40'>
       <div className='hire-landing flex flex-col items-center justify-center mt-32'>
         <p className='text-theme font-semibold mb-3 text-lg'>FOR YOU</p>
-        <h1 className='text-6xl font-semibold mb-3 text-center'>
-          Custom Illustrations
+        <h1 className='text-7xl font-semibold mb-3 text-center'>
+          <span className='gradient-text'>Custom</span> Vector Graphics
         </h1>
-        <p className='text-2xl mb-3 font-medium'>We&#39;ll help your brand stand out</p>
+        <p className='text-3xl mb-3 font-medium'>
+          That help your brand get noticed
+        </p>
         <p className='mv:w-full sm:w-500 text-center'>
           Are you looking to take your design beyond the free illustrations we
-          offer? Then take a journey with us into the Forbidden Forest and
-          unlock your design&#39;s true potential.
+          offer? Do you want your users to have a memorable experience? Then take a journey with us into the Forbidden Forest and
+          let&#39;s create illustrations for your project, together.
         </p>
-        <div className='flex mt-6'>
+        <button className='mt-20 text-center rounded px-8 py-4 text-black w-48 text-md tracking-wider font-poppins bg-white border border-black cursor-pointer hover:scale-102 transition-all ease-in duration-50 mv:mx-auto sm:mx-0'
+          id="hire-btn"
+        >
+          Get started
+        </button>
+        {/* <div className='flex mt-6'>
           <div className='bg-theme h-12 w-12 rounded-full'></div>
           <div className='bg-offwhite h-12 w-12 rounded-full mx-4'></div>
           <div className='bg-secondary h-12 w-12 rounded-full'></div>
-        </div>
+        </div> */}
       </div>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80'>
         <h1 className='text-4xl text-center mb-4 w-100'>

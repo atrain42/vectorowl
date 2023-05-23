@@ -1,7 +1,10 @@
 'use client'
 import React, { useRef } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, useInView } from 'framer-motion'
+import smile from '../../../public/images/smile.webp'
+import Copyright from '../Copyright'
 
 export default function MobileMenu({ open, setOpen }) {
   const animateFrom = { opacity: 0, y: 30 }
@@ -12,73 +15,45 @@ export default function MobileMenu({ open, setOpen }) {
 
   return (
     <>
-      {open && (
-        <div className='pt-40 text-4xl flex-col justify-start items-center fixed h-screen w-9/12 top-0 right-0 z-30 bg-white shadow-card mv:flex md:hidden list-none'>
-          <motion.li
-            className='mv:mb-16 md:mr-8'
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{ delay: 0.2 }}
+      <div
+        className={`py-40 text-4xl flex-col justify-between items-center fixed h-screen w-10/12 top-0 right-0 z-30 bg-white shadow-card mv:flex md:hidden transition duration-250 ease-in list-none ${
+          open ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <div className='flex flex-col items-center'>
+          <Link
+            className='cursor-pointer mv:mr-0 mb-16 hover:underline'
+            href='/about'
             onClick={() => {
               setOpen(false)
             }}
           >
-            <Link
-              className='cursor-pointer mv:mr-0'
-              href='/artwork'
-              style={{
-                transform: isInView ? 'none' : 'translateY(20px)',
-                transition: 'all 0.25s ease-in',
-                opacity: isInView ? 'opacity-100' : 'opactity-0',
-              }}
-            >
-              Illustrations
-            </Link>
-          </motion.li>
-          <motion.li
-            className='mv:mb-16 md:mr-8'
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{ delay: 0.4 }}
+            About
+          </Link>
+          <Link
+            className='cursor-pointer mv:mr-0 mb-16 hover:underline'
+            href='/hire-us'
             onClick={() => {
               setOpen(false)
             }}
           >
-            <Link
-              className='cursor-pointer mv:mr-0'
-              href='/signin'
-              style={{
-                transform: isInView ? 'none' : 'translateY(20px)',
-                transition: 'all 0.25s ease-in',
-                opacity: isInView ? 'opacity-100' : 'opactity-0',
-              }}
-            >
-              Hire us
-            </Link>
-          </motion.li>
-          <motion.li
-            className='mv:mb-52 md:mr-8'
-            initial={animateFrom}
-            animate={animateTo}
-            transition={{ delay: 0.6 }}
+            Hire us
+          </Link>
+          <Link
+            className='cursor-pointer mv:mr-0 hover:underline'
+            href='/illustrations'
             onClick={() => {
               setOpen(false)
             }}
           >
-            <Link
-              className='cursor-pointer mv:mr-0'
-              href='signup'
-              style={{
-                transform: isInView ? 'none' : 'translateY(20px)',
-                transition: 'all 0.25s ease-in',
-                opacity: isInView ? 'opacity-100' : 'opactity-0',
-              }}
-            >
-              About
-            </Link>
-          </motion.li>
+            Illustrations
+          </Link>
         </div>
-      )}
+        <div className='flex flex-col items-center justify-center'>
+          <Image className='w-16 h-16 mb-8' src={smile} alt='smiley face' />
+          <Copyright />
+        </div>
+      </div>
     </>
   )
 }
