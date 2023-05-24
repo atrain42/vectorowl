@@ -11,7 +11,7 @@ export default function Collection() {
   const router = useRouter()
   const collectionID = router.query.collectionID
   const collection = getCollectionById(collectionID)
-  const { title, col, description, id } = collection
+  const { title, col, description, id, buttonRoute, buttonTitle } = collection
 
   return (
     <motion.div
@@ -21,15 +21,15 @@ export default function Collection() {
       transition={{ duration: 1.0 }}
       className='mb-40 px-8'
     >
-      <div className='flex flex-col justify-center items-center mt-16 mb-16'>
+      <div className='flex flex-col justify-center items-center mt-16 mb-24'>
         <p>{title}</p>
         <h2>{col}</h2>
-        <p className='w-400 text-center mb-8'>{description}</p>
+        <p className='mv:w-full sm:w-400 text-center mb-8'>{description}</p>
         <Link
-          href='/illustrations'
-          className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 active:scale-95 transition-all ease-in duration-50'
+          href={`/illustrations/${buttonRoute}`}
+          className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 transition-all ease-in duration-50'
         >
-          Illustration sets
+          {buttonTitle}
         </Link>
       </div>
       <div className='grid mv:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mv:px-0 md:px-24 mv:gap-x-0 md:gap-x-12 gap-y-36 place-items-center'>

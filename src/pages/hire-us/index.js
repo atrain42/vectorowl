@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import brand11 from '../../../public/images/brand11.webp'
 import branding2 from '../../../public/images/branding-2.webp'
@@ -7,8 +7,16 @@ import Main from '@/components/Accordion/Main'
 import Form from '@/components/Form/Form'
 
 export default function index() {
-  // const ref = useRef(null)
-  const scrollToForm = () => ref.current?.scrollIntoView({ behavior: 'smooth' })
+  const ref = useRef(null)
+  const scrollToForm = () => {
+    const container = ref.current
+    const offsetTop = container.offsetTop - 150 // Apply offset of 100 pixels
+
+    window.scrollTo({
+      top: offsetTop,
+      behavior: 'smooth',
+    })
+  }
   return (
     <div className='px-8 mb-40'>
       <div className='hire-landing flex flex-col items-center justify-center mt-32'>
@@ -16,24 +24,22 @@ export default function index() {
         <h1 className='text-7xl font-semibold mb-3 text-center'>
           <span className='gradient-text'>Custom</span> Vector Graphics
         </h1>
-        <p className='text-3xl mb-3 font-medium'>
+        <p className='text-3xl mb-3 font-medium text-center'>
           That help your brand get noticed
         </p>
         <p className='mv:w-full sm:w-500 text-center'>
           Are you looking to take your design beyond the free illustrations we
-          offer? Do you want your users to have a memorable experience? Then take a journey with us into the Forbidden Forest and
-          let&#39;s create illustrations for your project, together.
+          offer? Do you want your users to have a memorable experience? Then
+          take a journey with us into the Forbidden Forest and let&#39;s create
+          illustrations for your project, together.
         </p>
-        <button className='mt-20 text-center rounded px-8 py-4 text-black w-48 text-md tracking-wider font-poppins bg-white border border-black cursor-pointer hover:scale-102 transition-all ease-in duration-50 mv:mx-auto sm:mx-0'
-          id="hire-btn"
+        <button
+          className='mt-20 text-center rounded px-8 py-4 text-black w-48 text-md tracking-wider font-poppins bg-white border border-black cursor-pointer hover:scale-102 transition-all ease-in duration-50 mv:mx-auto sm:mx-0'
+          id='hire-btn'
+          onClick={scrollToForm}  
         >
           Get started
         </button>
-        {/* <div className='flex mt-6'>
-          <div className='bg-theme h-12 w-12 rounded-full'></div>
-          <div className='bg-offwhite h-12 w-12 rounded-full mx-4'></div>
-          <div className='bg-secondary h-12 w-12 rounded-full'></div>
-        </div> */}
       </div>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80'>
         <h1 className='text-4xl text-center mb-4 w-100'>
@@ -60,7 +66,7 @@ export default function index() {
         </h1>
         <p className='text-center mv:w-full sm:w-500'>
           Our custom illustrations will leave a lasting impression on anyone who
-          comes across them. Below are common questions regarding custom images.
+          comes across them. Below are common questions in regards to the process of creating your custom illustrations.
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Main />
@@ -88,7 +94,7 @@ export default function index() {
           />
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80'>
+      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80' ref={ref} id="reference">
         <h1 className='text-4xl text-center mb-4 w-4/12'>
           Let&#39;s get started
         </h1>

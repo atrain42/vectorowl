@@ -21,6 +21,6 @@ export const termData = [
   },
   {
     title: 'Contact Information',
-    text: 'If you have any questions or concerns regarding these Terms or our website, please contact us at [Insert contact information].',
+    text: 'If you have any questions or concerns regarding these Terms or our website, please contact us at vectorowl.info@gmail.com.',
   },
 ]

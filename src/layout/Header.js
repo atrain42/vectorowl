@@ -5,7 +5,7 @@ import image from '../../public/images/branding-landing.webp'
 
 const Header = () => {
   return (
-    <header className='flex items-center mv:px-8 mv:flex-col-reverse mv:justify-center mv:pt-8 md:flex-row md:justify-evenly md:pt-20'>
+    <header className='flex items-center mv:px-8 mv:flex-col-reverse mv:justify-center mv:mt-12 md:flex-row md:justify-evenly md:mt-32'>
       <div className='mv:mr-0 mv:w-full md:mr-4 md:w-100'>
         <h1 className='text-5xl'>
           <strong>Vector illustrations</strong> for your website
@@ -16,11 +16,7 @@ const Header = () => {
           images, or hire us and we&#39;ll create custom
           images to better fit your design.
         </p>
-        {/* <p>
-          Today, so many websites are using the same style of vector images. We
-          are here to disrupt that trend.
-        </p> */}
-        <div className='grid grid-cols-2 mt-8 gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
+        <div className='grid grid-cols-2 mt-8 mv:gap-x-5 sm:gap-x-9 gap-y-9 font-button place-items-center text-md tracking-wider'>
           <Link
             className='shadow-button w-full rounded font-poppins font-normal text-center py-4 bg-theme text-white hover:scale-102 transition-all ease-in duration-50'
             href='/illustrations'

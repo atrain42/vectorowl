@@ -16,7 +16,7 @@ export default function Contact({ padding }) {
       </div>
       <span className='relative rounded px-8 py-4 mt-4 border border-theme cursor-pointer hover:scale-105 active:scale-95 transition-all ease-in duration-50'>
         <Link
-          href='mailto:maxheimer4211@gmail.com'
+          href='mailto:vectorowl.info@gmail.com'
           className='text-base tracking-wider font-poppins'
         >
           Contact
