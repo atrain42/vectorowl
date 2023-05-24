@@ -18,6 +18,7 @@ import internalJourney from '@/../public/images/color/internal-journey-co.webp'
 import loveLetter from '@/../public/images/color/love-letter-co.webp'
 import mailDelivery from '@/../public/images/color/mail-delivery-co.webp'
 import marketingPloy from '@/../public/images/color/marketing-ploy-co.webp'
+import mediaPresence from '@/../public/images/color/media-presence-co.webp'
 import morningCoffee from '@/../public/images/color/morning-coffee-co.webp'
 import movieScript from '@/../public/images/color/movie-script-co.webp'
 import multiTasking from '@/../public/images/color/multi-tasking-co.webp'
@@ -25,6 +26,7 @@ import nancyDrew from '@/../public/images/color/nancy-drew-co.webp'
 import pixelCreate from '@/../public/images/color/pixel-create-co.webp'
 import pristinePrecision from '@/../public/images/color/pristine-precision-co.webp'
 import puppetMaster from '@/../public/images/color/puppet-master-co.webp'
+import retroFitted from '@/../public/images/color/retro-fitted-co.webp'
 import saturdayNight from '@/../public/images/color/saturday-night-co.webp'
 import schoolNotes from '@/../public/images/color/school-notes-co.webp'
 import scrambledScreen from '@/../public/images/color/scrambled-screen-co.webp'
@@ -181,6 +183,13 @@ export const colorV1 = [
     url: 'marketing-ploy-co',
   },
   {
+    image: mediaPresence,
+    title: 'Media Presence',
+    collection: 'Color Collection',
+    alt: 'social media networking',
+    url: 'media-presence-co',
+  },
+  {
     image: morningCoffee,
     title: 'Morning Coffee',
     collection: 'Color Collection',
@@ -228,6 +237,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'company puppet master',
     url: 'puppet-master-co',
+  },
+  {
+    image: retroFitted,
+    title: 'Retro Fitted',
+    collection: 'Color Collection',
+    alt: 'retro computer',
+    url: 'retro-fitted-co',
   },
   {
     image: saturdayNight,

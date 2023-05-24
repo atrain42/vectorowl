@@ -18,6 +18,7 @@ import internalJourney from '@/../public/images/black-V1/internal-journey-bw.web
 import loveLetter from '@/../public/images/black-V1/love-letter-bw.webp'
 import mailDelivery from '@/../public/images/black-V1/mail-delivery-bw.webp'
 import marketingPloy from '@/../public/images/black-V1/marketing-ploy-bw.webp'
+import mediaPresence from '@/../public/images/black-V1/media-presence-bw.webp'
 import morningCoffee from '@/../public/images/black-V1/morning-coffee-bw.webp'
 import movieScript from '@/../public/images/black-V1/movie-script-bw.webp'
 import multiTasking from '@/../public/images/black-V1/multi-tasking-bw.webp'
@@ -25,6 +26,7 @@ import nancyDrew from '@/../public/images/black-V1/nancy-drew-bw.webp'
 import pixelCreate from '@/../public/images/black-V1/pixel-create-bw.webp'
 import pristinePrecision from '@/../public/images/black-V1/pristine-precision-bw.webp'
 import puppetMaster from '@/../public/images/black-V1/puppet-master-bw.webp'
+import retroFitted from '@/../public/images/black-V1/retro-fitted-bw.webp'
 import saturdayNight from '@/../public/images/black-V1/saturday-night-bw.webp'
 import schoolNotes from '@/../public/images/black-V1/school-notes-bw.webp'
 import scrambledScreen from '@/../public/images/black-V1/scrambled-screen-bw.webp'
@@ -181,6 +183,13 @@ export const blackV1 = [
     url: 'marketing-ploy-bw',
   },
   {
+    image: mediaPresence,
+    title: 'Media Presence',
+    collection: 'Black and White Collection',
+    alt: 'social media networking',
+    url: 'media-presence-bw',
+  },
+  {
     image: morningCoffee,
     title: 'Morning Coffee',
     collection: 'Black and White Collection',
@@ -228,6 +237,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'company puppet master',
     url: 'puppet-master-bw',
+  },
+  {
+    image: retroFitted,
+    title: 'Retro Fitted',
+    collection: 'Black and White Collection',
+    alt: 'retro computer',
+    url: 'retro-fitted-bw',
   },
   {
     image: saturdayNight,
