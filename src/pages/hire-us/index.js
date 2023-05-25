@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import brand11 from '../../../public/images/brand11.webp'
 import branding2 from '../../../public/images/branding-2.webp'
@@ -7,10 +7,10 @@ import Main from '@/components/Accordion/Main'
 import Form from '@/components/Form/Form'
 
 export default function index() {
-  const ref = useRef(null)
+  const ref = React.createRef(null)
   const scrollToForm = () => {
     const container = ref.current
-    const offsetTop = container.offsetTop - 150 // Apply offset of 100 pixels
+    const offsetTop = container.offsetTop - 125 // Apply offset of 100 pixels
 
     window.scrollTo({
       top: offsetTop,
