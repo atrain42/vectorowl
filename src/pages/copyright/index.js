@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import Term from '../terms/term'
+import Term from '../../components/term'
 
 export default function Copyright() {
   const text = 

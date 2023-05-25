@@ -1,6 +1,6 @@
 import React from 'react'
-import { termData } from './term-data'
-import Term from './term'
+import { termData } from '../../term-data'
+import Term from '../../components/term'
 
 export default function Terms() {
   return (
