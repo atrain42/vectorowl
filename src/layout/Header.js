@@ -36,7 +36,6 @@ const Header = () => {
           className='mv:h-5/6 mv:w-5/6 md:h-full md:w-auto mv:mx-auto'
           src={image}
           alt='platform'
-          priority
         />
       </div>
     </header>
