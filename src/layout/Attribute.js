@@ -17,7 +17,13 @@ const Attribute = () => {
       </span>
       <div className='flex items-center mv:mt-8 md:mt-32 mv:flex-col md:flex-row'>
         <div className='flex-1 relative flex flex-col items-center justify-center mv:w-screen md:w-7/12 mv:mt-16 md:mt-0'>
-          <Image className='h-auto w-4/6' src={image} alt='platform' />
+          <Image
+            src={image}
+            alt='platform'
+            className='h-auto w-4/6'
+            blurDataURL='URL'
+            placeholder='blur'
+          />
           <span className='relative'>
             <p className='mt-4 text-xs'>
               Image from{' '}

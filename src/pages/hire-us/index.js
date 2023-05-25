@@ -56,7 +56,6 @@ export default function index() {
             className='h-auto mv:w-full sm:w-9/12'
             src={brand11}
             alt='vector branding concept illustration'
-            priority
           />
         </div>
       </div>
