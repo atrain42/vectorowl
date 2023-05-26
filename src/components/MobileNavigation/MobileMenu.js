@@ -16,7 +16,7 @@ export default function MobileMenu({ open, setOpen }) {
   return (
     <>
       <div
-        className={`py-40 text-4xl flex-col justify-between items-center fixed h-screen w-10/12 top-0 right-0 z-30 bg-white shadow-card mv:flex md:hidden transition duration-250 ease-in list-none ${
+        className={`py-40 pb-56 text-4xl flex-col justify-between items-center fixed h-screen w-10/12 top-0 right-0 z-30 bg-white shadow-card mv:flex md:hidden transition duration-250 ease-in list-none ${
           open ? 'translate-x-0' : 'translate-x-full'
         }`}
       >

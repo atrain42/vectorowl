@@ -1,12 +1,8 @@
-import Image from "next/image"
-
 import Flex from "@/components/Flex/Flex"
-import FlexReverse from "@/components/Flex/FlexReverse"
-
 import flying from '../../public/images/flying.webp'
 import spinning from '../../public/images/spinning.webp'
 import hanging from '../../public/images/hanging.webp'
-import owl from '../../public/images/owl-eyes.webp'
+
 
 
 const data = [
@@ -52,7 +48,6 @@ export default function About() {
   return (
     <div className='pt-80 px-8'>
       <span className="flex flex-col items-center">
-        <Image className="w-20 mb-8" src={owl} alt="owl eyes vector concept"/>
         <h2 className='text-4xl w-96 text-center mx-auto mb-6'>
           A new way to do images
         </h2>

@@ -13,7 +13,7 @@ const Footer = ({ padding }) => {
       <div className='grid place-items-start mb-24 w-full mv:grid-cols-1 sm:grid-cols-3'>
         <div className='mv:mb-12 sm:mb-0'>
           <p className='mb-4 font-semibold'>Vector Owl</p>
-          <p className='text-sm'>
+          <p className='footer-link'>
             At Vector Owl, we offer scalable vector illustrations for various
             use cases such as branding, marketing, web & app design, and more.
             Our illustrations are unique and versatile to fit your project
@@ -23,15 +23,15 @@ const Footer = ({ padding }) => {
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
           <p className='mb-5 font-semibold'>Navigation</p>
           <div className='flex flex-col cursor-pointer'>
-            <Link href='/' className='mb-2 text-sm hover:underline'>
+            <Link href='/' className='mb-2 hover:underline footer-link'>
               Home
             </Link>
-            <Link href='/hire-us' className='mb-2 text-sm hover:underline'>
+            <Link href='/hire-us' className='mb-2 hover:underline footer-link'>
               Hire us
             </Link>
             <Link
               href='/illustrations'
-              className='mb-2 text-sm hover:underline'
+              className='mb-2 hover:underline footer-link'
             >
               Illustrations
             </Link>
@@ -40,13 +40,13 @@ const Footer = ({ padding }) => {
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
           <p className='mb-5 font-semibold'>Company</p>
           <div className='flex flex-col cursor-pointer'>
-            <Link href='/terms' className='mb-2 text-sm hover:underline'>
+            <Link href='/terms' className='mb-2 hover:underline footer-link'>
               Terms
             </Link>
-            <Link href='/about' className='mb-2 text-sm hover:underline'>
+            <Link href='/about' className='mb-2 hover:underline footer-link'>
               About
             </Link>
-            <Link href='/copyright' className='mb-2 text-sm hover:underline'>
+            <Link href='/copyright' className='mb-2 hover:underline footer-link'>
               Copyright
             </Link>
           </div>

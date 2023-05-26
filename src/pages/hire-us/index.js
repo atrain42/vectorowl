@@ -10,7 +10,7 @@ export default function index() {
   const ref = React.createRef(null)
   const scrollToForm = () => {
     const container = ref.current
-    const offsetTop = container.offsetTop - 125 // Apply offset of 100 pixels
+    const offsetTop = container.offsetTop - 150 // Apply offset of 100 pixels
 
     window.scrollTo({
       top: offsetTop,
@@ -19,7 +19,7 @@ export default function index() {
   }
   return (
     <div className='px-8 mb-40'>
-      <div className='hire-landing flex flex-col items-center justify-center mt-32'>
+      <div className='hire-landing flex flex-col items-center justify-center mv:mt-16 md:mt-32'>
         <p className='text-theme font-semibold mb-3 text-lg'>FOR YOU</p>
         <h1 className='text-7xl font-semibold mb-3 text-center'>
           <span className='gradient-text'>Custom</span> Vector Graphics
@@ -43,13 +43,14 @@ export default function index() {
       </div>
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80'>
         <h1 className='text-4xl text-center mb-4 w-100'>
-          Need custom illustrations? We got you covered.
+          We create custom vector illustrations
         </h1>
         <p className='text-center mv:w-full sm:w-500'>
           If you want custom illustrations tailored to your brand, then
-          we&#39;ve got you covered. We make custom illustrations tailored to
+          we&#39;ve got you covered. We make custom illustrations that are tailored to
           your <span className='text-secondary font-semibold'>brand</span>{' '}
-          <span className='text-theme font-semibold'>colors.</span>
+          <span className='text-theme font-semibold'>colors.</span> Setting your website apart from 
+          the competition starts here.
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Image
@@ -65,7 +66,7 @@ export default function index() {
         </h1>
         <p className='text-center mv:w-full sm:w-500'>
           Our custom illustrations will leave a lasting impression on anyone who
-          comes across them. Below are common questions in regards to the process of creating your custom illustrations.
+          comes across them. Below are common questions in regards to the process of creating your illustrations.
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Main />
@@ -93,7 +94,7 @@ export default function index() {
           />
         </div>
       </div>
-      <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12 mt-80' ref={ref} id="reference">
+      <div className='flex flex-col justify-center items-center px-8 mb-12 mt-80' ref={ref} id="reference">
         <h1 className='text-4xl text-center mb-4 w-4/12'>
           Let&#39;s get started
         </h1>
