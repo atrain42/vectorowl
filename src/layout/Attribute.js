@@ -39,7 +39,7 @@ const Attribute = () => {
           </span>
         </div>
         <div className='px-12 flex-1 flex flex-col items-center justify-center w-screen'>
-          <div className='mv:mt-16 md:mt-0 mv:w-full md:w-96'>
+          <div className='mv:mt-24 md:mt-0 mv:w-full md:w-96'>
             <p className='text-3.5xl mb-4 text-black'>Attribute Options</p>
             <ul className='list-disc'>
               <li className='mb-2 text-black'>

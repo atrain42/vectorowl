@@ -9,6 +9,30 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 0px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 17px;
+  }
+}
+
 :root {
   --light-grey: #f6f9fc;
   --dark-terminal-color: #0a2540;
@@ -40,19 +64,26 @@ h2 {
   font-size: 2.25rem;
 }
 
+p {
+  font-family: "Poppins", 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #303030;
+  font-size: clamp(16px, 2vw, 18.75px); 
+}
+
+.footer-link {
+  font-family: "Poppins", 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #303030;
+  font-size: 14px; 
+}
+
 /* this is for h1 tags at the tops of pages that should be styled like an h2 */
 .page-header {
   font-family: "Poppins", 'Roboto', sans-serif;
   font-style: normal;
   color: #222222;
   font-size: 2.25rem;
-}
-
-p {
-  font-family: "Poppins", 'Roboto', sans-serif;
-  font-weight: 400;
-  color: #303030;
-  font-size: 1.1rem;
 }
 
 ul li {
@@ -153,30 +184,6 @@ select {
 	right: 10px;
 	bottom: 10px;
 	transform: translate(-50%, -50%);
-}
-
-@media (min-width: 0px) {
-  html {
-    font-size: 13px;
-  }
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 1024px) {
-  html {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 1280px) {
-  html {
-    font-size: 17px;
-  }
 }
 
 .hover-menu {

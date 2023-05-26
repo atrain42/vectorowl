@@ -7,7 +7,7 @@ export default function Copyright() {
   }
 
   return (
-    <p className=' text-left text-sm'>
+    <p className='text-left footer-link'>
       &#xA9; Vector Owl, {getYear()}. All Rights Reserved.
     </p>
   )
