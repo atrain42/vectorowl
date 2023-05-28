@@ -22,7 +22,7 @@ export default function MobileMenu({ open, setOpen }) {
       >
         <div className='flex flex-col items-center'>
           <Link
-            className='cursor-pointer mv:mr-0 mb-16 hover:underline'
+            className='cursor-pointer mv:mr-0 mb-16'
             href='/about'
             onClick={() => {
               setOpen(false)
@@ -31,7 +31,7 @@ export default function MobileMenu({ open, setOpen }) {
             About
           </Link>
           <Link
-            className='cursor-pointer mv:mr-0 mb-16 hover:underline'
+            className='cursor-pointer mv:mr-0 mb-16'
             href='/hire-us'
             onClick={() => {
               setOpen(false)
@@ -40,7 +40,7 @@ export default function MobileMenu({ open, setOpen }) {
             Hire us
           </Link>
           <Link
-            className='cursor-pointer mv:mr-0 hover:underline'
+            className='cursor-pointer mv:mr-0'
             href='/illustrations'
             onClick={() => {
               setOpen(false)

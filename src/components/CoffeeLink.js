@@ -19,7 +19,7 @@ export default function CoffeeLink() {
       </Link>
       <div
         className={`bg-offwhite border border-black fixed bottom-19 right-8 rounded-md flex items-center justify-center px-8 py-4 ${
-          isHovered ? 'translate-x-0' : 'translate-x-96'
+          isHovered ? 'mv:translate-x-96 md:translate-x-0' : 'translate-x-96'
         } linear duration-300`}
       >
         <p className='text-sm'>Buy me a coffee :&#41;</p>
