@@ -23,30 +23,30 @@ const Footer = ({ padding }) => {
         <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
           <p className='mb-5 font-semibold'>Navigation</p>
           <div className='flex flex-col cursor-pointer'>
-            <Link href='/' className='mb-2 hover:underline footer-link'>
+            <Link href='/' className='mb-4 mv:hover:none md:hover:underline footer-link'>
               Home
             </Link>
-            <Link href='/hire-us' className='mb-2 hover:underline footer-link'>
+            <Link href='/hire-us' className='mb-4 mv:hover:none md:hover:underline footer-link'>
               Hire us
             </Link>
             <Link
               href='/illustrations'
-              className='mb-2 hover:underline footer-link'
+              className='mb-2 mv:hover:none md:hover:underline footer-link'
             >
               Illustrations
             </Link>
           </div>
         </div>
-        <div className='mv:justify-self-start sm:justify-self-end flex flex-col mv:mb-12 sm:mb-0'>
+        <div className='mv:justify-self-start sm:justify-self-end flex flex-col'>
           <p className='mb-5 font-semibold'>Company</p>
           <div className='flex flex-col cursor-pointer'>
-            <Link href='/terms' className='mb-2 hover:underline footer-link'>
+            <Link href='/terms' className='mb-4 mv:hover:none md:hover:underline footer-link'>
               Terms
             </Link>
-            <Link href='/about' className='mb-2 hover:underline footer-link'>
+            <Link href='/about' className='mb-4 mv:hover:none md:hover:underline footer-link'>
               About
             </Link>
-            <Link href='/copyright' className='mb-2 hover:underline footer-link'>
+            <Link href='/copyright' className='mv:hover:none md:hover:underline footer-link'>
               Copyright
             </Link>
           </div>
