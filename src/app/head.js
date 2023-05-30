@@ -1,10 +1,12 @@
-import twitterCard from '../../public/images/twitter-card.png'
-
 export default function Head() {
   return (
     <>
       <title>Free Vector Illustrations for Your Website</title>
       <meta content='width=device-width, initial-scale=1' name='viewport' />
+      <meta
+        property='og:image'
+        content='../../public/images/twitter-card.png'
+      />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:site' content='@_PixelPrism' />
       <meta name='twitter:title' content='Unique Vector Illustrations' />
@@ -14,7 +16,7 @@ export default function Head() {
       />
       <meta
         name='twitter:image'
-        content={twitterCard}
+        content='../../public/images/twitter-card.png'
       />
       <meta
         name='description'
