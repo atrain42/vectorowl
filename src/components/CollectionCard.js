@@ -3,7 +3,10 @@ import ArrowLink from './ArrowLink'
 
 export default function Collection({title, description, col, id, line, icon }) {
   return (
-    <Link className='hover:bg-[#0780801f]' href={`/illustrations/${id}`}>
+    <Link
+      className='hover:bg-[#07808010] flex-1 max-w-3xl'
+      href={`/illustrations/${id}`}
+    >
       <div className='border rounded-sm border-[#222222] p-12 mv:px-6 md:px-12 outline-zinc-400 flex flex-col justify-between items-start cursor-pointer mv:hover:none md:hover:shadow-black transition-all ease-in 0.75s'>
         <span className='flex items-center mb-4'>
           <div className='w-0.75 h-5 bg-black'></div>
