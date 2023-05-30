@@ -1,3 +1,5 @@
+import image from '../../public/images/twitter-card.png'
+
 export default function Head() {
   return (
     <>
@@ -5,7 +7,7 @@ export default function Head() {
       <meta content='width=device-width, initial-scale=1' name='viewport' />
       <meta
         property='og:image'
-        content='../../public/images/twitter-card.png'
+        content={image}
       />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:site' content='@_PixelPrism' />
@@ -16,7 +18,7 @@ export default function Head() {
       />
       <meta
         name='twitter:image'
-        content='../../public/images/twitter-card.png'
+        content={image}
       />
       <meta
         name='description'
