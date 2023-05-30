@@ -14,7 +14,7 @@ export default function Collections({ paddingTop }) {
           sets your website apart.
         </p>
       </div>
-      <div className='mv:px-8 md:px-12 lg:px-20 grid mv:grid-cols-1 md:grid-cols-2 gap-12 place-items-center'>
+      <div className='mv:px-8 md:px-12 lg:px-20 flex gap-8 items-center justify-center mv:flex-col md:flex-row'>
         {collections.map((collection, index) => {
           return (
             <CollectionCard

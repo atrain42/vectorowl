@@ -45,7 +45,7 @@ module.exports = {
         form: '52rem',
         0.75: '3px',
       },
-
+      
       height: {
         100: '32rem',
         200: '26rem',
