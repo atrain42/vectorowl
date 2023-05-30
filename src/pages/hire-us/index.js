@@ -55,7 +55,7 @@ export default function index() {
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Image
-            className='h-auto mv:w-full sm:w-9/12'
+            className='h-auto mv:w-full md:w-400'
             src={brand11}
             alt='vector branding concept illustration'
           />
@@ -70,10 +70,10 @@ export default function index() {
           comes across them. Below are common questions in regards to the
           process of creating your illustrations.
         </p>
-        <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
+        <div className='w-full flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Main />
           <Image
-            className='h-auto mv:w-full sm:w-6/12'
+            className='h-auto mv:w-full md:w-100'
             src={branding2}
             alt='vector branding concept illustration'
           />
@@ -90,7 +90,7 @@ export default function index() {
         </p>
         <div className='flex items-center justify-around mt-16 mv:flex-col-reverse md:flex-row'>
           <Image
-            className='h-auto mv:w-full sm:w-9/12'
+            className='h-auto mv:w-full md:w-400'
             src={branding69}
             alt='vector branding concept illustration'
           />

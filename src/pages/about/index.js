@@ -37,26 +37,27 @@ export default function About () {
           fingers across the sky and softly grazes the eagle&#39;s black
           feathers. The desert is unfamiliar territory for the eagle.<br></br>
           <br></br>While flying over endless miles of sand, the wind rips a seed
-          from within the eagle&#39;s fur and sends it hurtling toward the earth. The
-          seed rocks back and forth in the wind like a fishing boat navigating
-          rough waters. Eventually, the seed becomes one with the wind and moves
-          perfectly with its currents. As the seed falls to the ground, it lands
-          on the back of a scorpion, causing the creature to become alarmed and
-          quickly burrow deep into the sand. With help from the scorpion, the
-          seed is planted deep into the ground. <br></br>
-          <br></br>As the days pass, the seed becomes desperate for water. It
+          from within the eagle&#39;s feathers and sends it hurtling toward the
+          earth. The seed sways in the wind like a fishing boat navigating rough
+          waters. Eventually, the seed becomes one with the wind and moves
+          perfectly with its currents. When it hits the ground, it lands on the
+          back of a scorpion, causing the creature to become alarmed and quickly
+          burrow deep into the sand.<br></br>
+          <br></br>As the days pass, the seed has become desperate for water. It
           will turn to dust and mix with the surrounding sand if it doesn&#39;t
-          receive nourishment soon. As the seed is about to wave the white flag
+          receive nourishment soon. Just as it is about to wave the white flag
           and surrender to the scorching heat, raindrops begin pouring down from
           the dark clouds above. The water jolts the seed with hope and causes a
-          tiny root to sprout. Day after day, the rain continues, and a
-          minuscule branch penetrates the earth&#39;s crust.<br></br>
-          <br></br> The tiny branch has blossomed into a towering Kapok tree
-          with continued rain. The tree bends and sways in the wind, causing
-          seeds to detach from its branches and scatter across the desert. Over
-          time, the sandy desert floor becomes adorned with flourishing green
-          stems that aspire to grow into their own Kapok tree.<br></br>
-          <br></br> Years later, the now lush green land is discovered by a
+          tiny root to sprout from within. Day after day, the rain continues,
+          and a minuscule branch penetrates the earth&#39;s crust and reaches
+          toward the heavens.<br></br>
+          <br></br>As days decay into years, the tiny branch has blossomed into
+          a towering Kapok tree. Wind gusts cause the tree to bend and sway,
+          forcing seeds to detach from its branches and scatter across the
+          desert. With continued rainfall and the passing of time, the sandy
+          desert floor has become adorned with flourishing green stems that
+          aspire to grow into their own Kapok tree.<br></br>
+          <br></br> Centuries later, the now lush green land is discovered by a
           native tribe. Playful monkeys swing from tree to tree while determined
           fish swim against the river&#39;s strong currents. The hollow coo of
           an owl leaps across the moisture in the air and echoes off of tree
@@ -65,9 +66,9 @@ export default function About () {
           magnificent Amazon Rainforest.<br></br>
           <br></br>Your idea is the seed. It has the potential to thrive and
           leave a lasting impact on the world, but the unknown holds you back.
-          Be like the eagle and traverse unfamiliar territory to pursue your
-          dreams. Who knows, maybe one day, your idea will blossom into the next
-          Amazon Rainforest.
+          Be like the eagle and traverse into unfamiliar territory to pursue
+          your dreams. Who knows, maybe one day, your idea will blossom into the
+          next Amazon Rainforest.
         </p>
       </div>
     </motion.div>
