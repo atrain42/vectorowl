@@ -24,7 +24,7 @@ export default function Collection() {
     >
       <div className='flex flex-col justify-center items-center mt-16 mb-24'>
         <p>{title}</p>
-        <h2>{col}</h2>
+        <h2 className='mv:w-full sm:w-400 text-center'>{col}</h2>
         <p className='mv:w-full sm:w-400 text-center mb-8'>{description}</p>
         <Link
           href={`/illustrations/${buttonRoute}`}
@@ -49,7 +49,7 @@ export default function Collection() {
                     className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12'
                     src={svg}
                     alt='View icon'
-                    blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII="
+                    blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkqAcAAIUAgUW0RjgAAAAASUVORK5CYII='
                     placeholder='blur'
                   />
                 </div>
