@@ -18,6 +18,7 @@ import internalJourney from '@/../public/images/black-V1/internal-journey-bw.web
 import loveLetter from '@/../public/images/black-V1/love-letter-bw.webp'
 import mailDelivery from '@/../public/images/black-V1/mail-delivery-bw.webp'
 import marketingPloy from '@/../public/images/black-V1/marketing-ploy-bw.webp'
+import marketingWeb from '@/../public/images/black-V1/marketing-web-bw.webp'
 import mediaPresence from '@/../public/images/black-V1/media-presence-bw.webp'
 import morningCoffee from '@/../public/images/black-V1/morning-coffee-bw.webp'
 import movieScript from '@/../public/images/black-V1/movie-script-bw.webp'
@@ -30,10 +31,12 @@ import retroFitted from '@/../public/images/black-V1/retro-fitted-bw.webp'
 import saturdayNight from '@/../public/images/black-V1/saturday-night-bw.webp'
 import schoolNotes from '@/../public/images/black-V1/school-notes-bw.webp'
 import scrambledScreen from '@/../public/images/black-V1/scrambled-screen-bw.webp'
+import screenBalance from '@/../public/images/black-V1/screen-balance-bw.webp'
 import screenCanvas from '@/../public/images/black-V1/screen-canvas-bw.webp'
 import screenHopper from '@/../public/images/black-V1/screen-hopper-bw.webp'
 import simpleMath from '@/../public/images/black-V1/simple-math-bw.webp'
 import skyParadise from '@/../public/images/black-V1/sky-paradise-bw.webp'
+import socialForest from '@/../public/images/black-V1/social-forest-bw.webp'
 import stackedPapers from '@/../public/images/black-V1/stacked-papers-bw.webp'
 import structuredChaos from '@/../public/images/black-V1/structured-chaos-bw.webp'
 import takeFlight from '@/../public/images/black-V1/take-flight-bw.webp'
@@ -183,6 +186,13 @@ export const blackV1 = [
     url: 'marketing-ploy-bw',
   },
   {
+    image: marketingWeb,
+    title: 'Marketing Web',
+    collection: 'Black and White Collection',
+    alt: 'a web of marketing concept illustration',
+    url: 'marketing-web-bw',
+  },
+  {
     image: mediaPresence,
     title: 'Media Presence',
     collection: 'Black and White Collection',
@@ -260,6 +270,13 @@ export const blackV1 = [
     url: 'school-notes-bw',
   },
   {
+    image: screenBalance,
+    title: 'Screen Balance',
+    collection: 'Black and White Collection',
+    alt: 'vector balancing screens concept image',
+    url: 'screen-balance-bw',
+  },
+  {
     image: screenCanvas,
     title: 'Screen Canvas',
     collection: 'Black and White Collection',
@@ -293,6 +310,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'city in the sky concept',
     url: 'sky-paradise-bw',
+  },
+  {
+    image: socialForest,
+    title: 'Social Forest',
+    collection: 'Black and White Collection',
+    alt: 'social media in the forest concept image',
+    url: 'social-forest-bw',
   },
   {
     image: stackedPapers,
