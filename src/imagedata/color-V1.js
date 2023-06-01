@@ -18,6 +18,7 @@ import internalJourney from '@/../public/images/color/internal-journey-co.webp'
 import loveLetter from '@/../public/images/color/love-letter-co.webp'
 import mailDelivery from '@/../public/images/color/mail-delivery-co.webp'
 import marketingPloy from '@/../public/images/color/marketing-ploy-co.webp'
+import marketingWeb from '@/../public/images/color/marketing-web-co.webp'
 import mediaPresence from '@/../public/images/color/media-presence-co.webp'
 import morningCoffee from '@/../public/images/color/morning-coffee-co.webp'
 import movieScript from '@/../public/images/color/movie-script-co.webp'
@@ -30,10 +31,12 @@ import retroFitted from '@/../public/images/color/retro-fitted-co.webp'
 import saturdayNight from '@/../public/images/color/saturday-night-co.webp'
 import schoolNotes from '@/../public/images/color/school-notes-co.webp'
 import scrambledScreen from '@/../public/images/color/scrambled-screen-co.webp'
+import screenBalance from '@/../public/images/color/screen-balance-co.webp'
 import screenCanvas from '@/../public/images/color/screen-canvas-co.webp'
 import screenHopper from '@/../public/images/color/screen-hopper-co.webp'
 import simpleMath from '@/../public/images/color/simple-math-co.webp'
 import skyParadise from '@/../public/images/color/sky-paradise-co.webp'
+import socialForest from '@/../public/images/color/social-forest-co.webp'
 import stackedPapers from '@/../public/images/color/stacked-papers-co.webp'
 import structuredChaos from '@/../public/images/color/structured-chaos-co.webp'
 import takeFlight from '@/../public/images/color/take-flight-co.webp'
@@ -183,6 +186,13 @@ export const colorV1 = [
     url: 'marketing-ploy-co',
   },
   {
+    image: marketingWeb,
+    title: 'Marketing Web',
+    collection: 'Color Collection',
+    alt: 'a web of marketing concept illustration',
+    url: 'marketing-web-co',
+  },
+  {
     image: mediaPresence,
     title: 'Media Presence',
     collection: 'Color Collection',
@@ -260,18 +270,25 @@ export const colorV1 = [
     url: 'school-notes-co',
   },
   {
-    image: screenCanvas,
-    title: 'Screen Canvas',
-    collection: 'Color Collection',
-    alt: 'painting with computer screens',
-    url: 'screen-canvas-co',
-  },
-  {
     image: scrambledScreen,
     title: 'Scrambled Screen',
     collection: 'Color Collection',
     alt: 'screen scramler concept',
     url: 'scrambled-screen-co',
+  },
+  {
+    image: screenBalance,
+    title: 'Screen Balance',
+    collection: 'Color Collection',
+    alt: 'vector balancing screens concept image',
+    url: 'screen-balance-co',
+  },
+  {
+    image: screenCanvas,
+    title: 'Screen Canvas',
+    collection: 'Color Collection',
+    alt: 'painting with computer screens',
+    url: 'screen-canvas-co',
   },
   {
     image: screenHopper,
@@ -293,6 +310,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'city in the sky concept',
     url: 'sky-paradise-co',
+  },
+  {
+    image: socialForest,
+    title: 'Social Forest',
+    collection: 'Color Collection',
+    alt: 'social media in the forest concept image',
+    url: 'social-forest-co',
   },
   {
     image: stackedPapers,
