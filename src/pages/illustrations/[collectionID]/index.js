@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { getCollectionById } from '@/collectiondata'
 import { useRouter } from 'next/router'
+import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import Link from 'next/link'
 import svg from '../../../../public/images/eye.svg'
@@ -12,7 +13,7 @@ export default function Collection() {
   const router = useRouter()
   const collectionID = router.query.collectionID
   const collection = getCollectionById(collectionID)
-  const { title, col, description, id, buttonRoute, buttonTitle } = collection
+  const { title, col, description, id, buttonRoute, buttonTitle, seoTitle } = collection
 
   return (
     <motion.div
@@ -22,6 +23,10 @@ export default function Collection() {
       transition={{ duration: 1.0 }}
       className='mb-40 px-8'
     >
+      <NextSeo
+        title={seoTitle}
+        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format.'
+      />
       <div className='flex flex-col justify-center items-center mt-16 mb-24'>
         <p>{title}</p>
         <h2 className='mv:w-full sm:w-400 text-center'>{col}</h2>

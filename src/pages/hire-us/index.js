@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { NextSeo } from 'next-seo'
 import brand11 from '../../../public/images/brand11.webp'
 import branding2 from '../../../public/images/branding-2.webp'
 import branding69 from '../../../public/images/branding69.webp'
@@ -19,6 +20,10 @@ export default function index() {
   }
   return (
     <div className='px-8 mb-40'>
+      <NextSeo
+        title="Vector Owl - Hire Us"
+        description='Hire us to create custom vector illustrations for your project. Our vector illustrations are available in multiple formats.'
+      />
       <div className='hire-landing flex flex-col items-center justify-center mv:mt-16 md:mt-32'>
         <p className='text-theme font-semibold mb-3 text-lg'>FOR YOU</p>
         <h1 className='text-7xl font-semibold mb-3 text-center'>
