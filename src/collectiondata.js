@@ -11,6 +11,7 @@ export const collections = [
     imageData: blackV1,
     buttonRoute: 'color',
     buttonTitle: 'Color set',
+    seoTitle: 'Vector Owl - Black and White Illustrations',
   },
   {
     title: 'Daylight',
@@ -21,6 +22,7 @@ export const collections = [
     imageData: colorV1,
     buttonRoute: 'black&white',
     buttonTitle: 'Black and white set',
+    seoTitle: 'Vector Owl - Color Illustrations',
   },
 ]
 

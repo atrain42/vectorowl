@@ -1,4 +1,5 @@
 import React from 'react'
+import { NextSeo } from 'next-seo'
 import { motion } from 'framer-motion'
 import Term from '../../components/term'
 
@@ -25,6 +26,10 @@ export default function About () {
       transition={{ duration: 1.0 }}
       className='flex flex-col items-center mb-40 px-8'
     >
+      <NextSeo
+        title='Vector Owl - Company Info'
+        description='Explore a variety of free vector illustrations to enhance your website. Our vector art is available for download in WebP format.'
+      />
       <h2 className='text-center my-16'>About</h2>
       <Term title='Our Mission' text={mission} />
       <Term title='Who are we' text={text} />
