@@ -14,12 +14,14 @@ import financeTracker from '@/../public/images/color/finance-tracker-co.webp'
 import formPacman from '@/../public/images/color/form-pacman-co.webp'
 import goodSignal from '@/../public/images/color/good-signal-co.webp'
 import googleEarth from '@/../public/images/color/google-earth-co.webp'
+import growthMindset from '@/../public/images/color/growth-mindset-co.webp'
 import internalJourney from '@/../public/images/color/internal-journey-co.webp'
 import loveLetter from '@/../public/images/color/love-letter-co.webp'
 import mailDelivery from '@/../public/images/color/mail-delivery-co.webp'
 import marketingPloy from '@/../public/images/color/marketing-ploy-co.webp'
 import marketingWeb from '@/../public/images/color/marketing-web-co.webp'
 import mediaPresence from '@/../public/images/color/media-presence-co.webp'
+import moneyDrip from '@/../public/images/color/money-drip-co.webp'
 import morningCoffee from '@/../public/images/color/morning-coffee-co.webp'
 import movieScript from '@/../public/images/color/movie-script-co.webp'
 import multiTasking from '@/../public/images/color/multi-tasking-co.webp'
@@ -158,6 +160,13 @@ export const colorV1 = [
     url: 'google-earth-co',
   },
   {
+    image: growthMindset,
+    title: 'Growth Mindset',
+    collection: 'Color Collection',
+    alt: 'vector always grow concept illustration',
+    url: 'growth-mindset-co',
+  },
+  {
     image: internalJourney,
     title: 'Internal Journey',
     collection: 'Color Collection',
@@ -198,6 +207,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'social media networking',
     url: 'media-presence-co',
+  },
+  {
+    image: moneyDrip,
+    title: 'Money Drip',
+    collection: 'Color Collection',
+    alt: 'vector happy money concept illustration',
+    url: 'money-drip-co',
   },
   {
     image: morningCoffee,

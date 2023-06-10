@@ -14,12 +14,14 @@ import financeTracker from '@/../public/images/black-V1/finance-tracker-bw.webp'
 import formPacman from '@/../public/images/black-V1/form-pacman-bw.webp'
 import goodSignal from '@/../public/images/black-V1/good-signal-bw.webp'
 import googleEarth from '@/../public/images/black-V1/google-earth-bw.webp'
+import growthMindset from '@/../public/images/black-V1/growth-mindset-bw.webp'
 import internalJourney from '@/../public/images/black-V1/internal-journey-bw.webp'
 import loveLetter from '@/../public/images/black-V1/love-letter-bw.webp'
 import mailDelivery from '@/../public/images/black-V1/mail-delivery-bw.webp'
 import marketingPloy from '@/../public/images/black-V1/marketing-ploy-bw.webp'
 import marketingWeb from '@/../public/images/black-V1/marketing-web-bw.webp'
 import mediaPresence from '@/../public/images/black-V1/media-presence-bw.webp'
+import moneyDrip from '@/../public/images/black-V1/money-drip-bw.webp'
 import morningCoffee from '@/../public/images/black-V1/morning-coffee-bw.webp'
 import movieScript from '@/../public/images/black-V1/movie-script-bw.webp'
 import multiTasking from '@/../public/images/black-V1/multi-tasking-bw.webp'
@@ -158,6 +160,13 @@ export const blackV1 = [
     url: 'google-earth-bw',
   },
   {
+    image: growthMindset,
+    title: 'Growth Mindset',
+    collection: 'Black and White Collection',
+    alt: 'vector always grow concept illustration',
+    url: 'growth-mindset-bw',
+  },
+  {
     image: internalJourney,
     title: 'Internal Journey',
     collection: 'Black and White Collection',
@@ -198,6 +207,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'social media networking',
     url: 'media-presence-bw',
+  },
+  {
+    image: moneyDrip,
+    title: 'Money Drip',
+    collection: 'Black and White Collection',
+    alt: 'vector happy money concept illustration',
+    url: 'money-drip-bw',
   },
   {
     image: morningCoffee,
