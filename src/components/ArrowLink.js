@@ -24,7 +24,7 @@ export default function ArrowLink({ title }) {
         <div
           className={`h-0.5 ease-in duration-150 absolute right-2 ${
             isHovered ? 'w-12 bg-[#222222]' : 'w-4 bg-[#222222]'
-          }`}
+          } active:w-12`}
         ></div>
         <svg
           version='1.1'
