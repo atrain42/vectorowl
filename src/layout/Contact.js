@@ -1,8 +1,16 @@
 import Link from "next/link"
+import Image from "next/image"
+
+import image from '../../public/images/balloons-theme.png'
 
 export default function Contact({ padding }) {
   return (
     <section className='flex flex-col items-center justify-center pt-80 mb-40'>
+        <Image
+          className='mv:h-56 mv:w-auto mv:mx-auto mb-8'
+          src={image}
+          alt='platform'
+        />
       <div className='flex flex-col justify-center items-center mv:px-8 md:px-0 mb-12'>
         <p className='text-xs bg-offwhite p-4 rounded-full border border-textblack'>
           We appreciate you

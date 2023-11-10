@@ -1,5 +1,6 @@
 import ambientResize from '@/../public/images/black-V1/ambient-resize-bw.webp'
 import artClass from '@/../public/images/black-V1/art-class-bw.webp'
+import balancedEmotions from '@/../public/images/black-V1/balanced-emotions-bw.webp'
 import birdDebrief from '@/../public/images/black-V1/bird-debrief-bw.webp'
 import bookReturn from '@/../public/images/black-V1/book-return-bw.webp'
 import brandElevation from '@/../public/images/black-V1/brand-elevation-bw.webp'
@@ -15,6 +16,7 @@ import formPacman from '@/../public/images/black-V1/form-pacman-bw.webp'
 import goodSignal from '@/../public/images/black-V1/good-signal-bw.webp'
 import googleEarth from '@/../public/images/black-V1/google-earth-bw.webp'
 import growthMindset from '@/../public/images/black-V1/growth-mindset-bw.webp'
+import heartRepair from '@/../public/images/black-V1/heart-repair-bw.webp'
 import internalJourney from '@/../public/images/black-V1/internal-journey-bw.webp'
 import loveLetter from '@/../public/images/black-V1/love-letter-bw.webp'
 import mailDelivery from '@/../public/images/black-V1/mail-delivery-bw.webp'
@@ -60,6 +62,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'painting in art class',
     url: 'art-class-bw',
+  },
+  {
+    image: balancedEmotions,
+    title: 'Balanced Emotions',
+    collection: 'Black and White Collection',
+    alt: 'sad and happy balloons',
+    url: 'balanced-emotions-bw',
   },
   {
     image: birdDebrief,
@@ -165,6 +174,13 @@ export const blackV1 = [
     collection: 'Black and White Collection',
     alt: 'vector always grow concept illustration',
     url: 'growth-mindset-bw',
+  },
+  {
+    image: heartRepair,
+    title: 'Heart Repair',
+    collection: 'Black and White Collection',
+    alt: 'broken heart concept illustration',
+    url: 'heart-repair-bw',
   },
   {
     image: internalJourney,

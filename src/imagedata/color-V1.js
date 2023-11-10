@@ -1,5 +1,6 @@
 import ambientResize from '@/../public/images/color/ambient-resize-co.webp'
 import artClass from '@/../public/images/color/art-class-co.webp'
+import balancedEmotions from '@/../public/images/color/balanced-emotions-co.webp'
 import birdDebrief from '@/../public/images/color/bird-debrief-co.webp'
 import bookReturn from '@/../public/images/color/book-return-co.webp'
 import brandElevation from '@/../public/images/color/brand-elevation-co.webp'
@@ -15,6 +16,7 @@ import formPacman from '@/../public/images/color/form-pacman-co.webp'
 import goodSignal from '@/../public/images/color/good-signal-co.webp'
 import googleEarth from '@/../public/images/color/google-earth-co.webp'
 import growthMindset from '@/../public/images/color/growth-mindset-co.webp'
+import heartRepair from '@/../public/images/color/heart-repair-co.webp'
 import internalJourney from '@/../public/images/color/internal-journey-co.webp'
 import loveLetter from '@/../public/images/color/love-letter-co.webp'
 import mailDelivery from '@/../public/images/color/mail-delivery-co.webp'
@@ -60,6 +62,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'painting in art class',
     url: 'art-class-co',
+  },
+    {
+    image: balancedEmotions,
+    title: 'Balanced Emotions',
+    collection: 'Color Collection',
+    alt: 'sad and happy balloons',
+    url: 'balanced-emotions-co',
   },
   {
     image: birdDebrief,
@@ -165,6 +174,13 @@ export const colorV1 = [
     collection: 'Color Collection',
     alt: 'vector always grow concept illustration',
     url: 'growth-mindset-co',
+  },
+    {
+    image: heartRepair,
+    title: 'Heart Repair',
+    collection: 'Color Collection',
+    alt: 'broken heart concept illustration',
+    url: 'heart-repair-co',
   },
   {
     image: internalJourney,
